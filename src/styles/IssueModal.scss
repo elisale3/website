@@ -6,44 +6,66 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   z-index: 1000;
 }
 
 .issue-modal-content {
-  background: $color-white;
-  padding: $spacer-3;
-  border-radius: 0.5rem;
-  max-width: 90%;
-  max-height: 90%;
+  background: rgba(254, 251, 247, 0.5);
+  padding: 3.5rem;
+  max-width: 70%;
+  max-height: 85vh;
   overflow-y: auto;
   position: relative;
+  opacity: 1;
+  border: 1px solid #FFFFFF;
 }
 
 .issue-modal-close {
   position: absolute;
-  top: $spacer-1;
-  right: $spacer-1;
+  top: 0rem;
+  right: 0rem;
   background: none;
   border: none;
-  font-size: 2rem;
+  font-size: 5rem;
   cursor: pointer;
+  color: #FFFFFF;
 }
 
-.issue-modal-title {
-  margin-bottom: $spacer-2;
+.issue-modal-image-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
 }
 
 .issue-modal-image {
-  width: 100%;
+  max-width: 100%;
   height: auto;
-  margin-bottom: $spacer-2;
+  object-fit: contain;
 }
 
 .issue-modal-description {
-  font-size: 1rem;
-  line-height: 1.5;
+  margin: 1rem 0;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.issue-modal-read-more {
+  display: block;
+  width: fit-content;
+  margin: 1.5rem auto 0;
+  padding: 2rem 4.5rem;
+  background-color: #FFFFFF;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  text-align: center;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
 }
