@@ -67,6 +67,7 @@ class AboutGallery extends React.Component {
           infinite={true}
           autoPlay={true}
           autoPlayInterval={1500}
+          autoPlayStrategy="none"
           responsive={responsiveObject}
         />
         <button
