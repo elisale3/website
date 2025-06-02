@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[3562],{3562:(e,s,t)=>{e.exports=t.p+"static/media/Rylee_Boyles.cd76c730c9f9859fbb80.JPG"}}]);

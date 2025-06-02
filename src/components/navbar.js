@@ -80,6 +80,9 @@ class Navbar extends React.Component {
                 <NavLink to="/issues">
                   <p><a href={"../pages/issues.js"}>Issues</a></p>
                 </NavLink>
+                <NavLink to="/about">
+                  <p><a href={"../pages/about.js"}>About</a></p>
+                </NavLink>
                 <p><a className="blog" href={medium} target="_blank" rel="noopener noreferrer"> Blog
                   </a></p>
                 <NavLink to="/team">
@@ -128,6 +131,9 @@ class Navbar extends React.Component {
                 </NavLink>
                 <NavLink to="/issues" onTouchEnd={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/issues.js"}>ISSUES</a></h4>
+                </NavLink>
+                <NavLink to="/about" onTouchEnd={() => this.handleCloseMenu()}>
+                <h4><a href={"../pages/about.js"}>About</a></h4>
                 </NavLink>
                 <h4><a className="blog" href={medium}> BLOG
                   </a></h4>

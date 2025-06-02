@@ -6,13 +6,13 @@ class IssueBlock extends React.Component {
 
   render () {
     return (
-      <div className="issue-container" >
-        <a className="issue-image-container" href={this.props.link}>
+      <div className="issue-container" onClick={this.props.onClick}>
+        <div className="issue-image-container">
           <LazyLoadImage className="issue-image" src={this.props.picture} alt={this.props.title} />
           <div className="issue-description-layer">
             <div className="issue-description"><p>{this.props.description}</p></div>
           </div>
-        </a>
+        </div>
       </div>
     )
   }

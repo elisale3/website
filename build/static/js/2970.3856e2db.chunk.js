@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[2970],{2970:(e,s,t)=>{e.exports=t.p+"static/media/Nelson_Chen.e39eddc2457497633b7b.JPG"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[4762],{4762:(e,t,s)=>{e.exports=s.p+"static/media/Mia_Elliott.f0ed556020a0769ed9c3.jpg"}}]);

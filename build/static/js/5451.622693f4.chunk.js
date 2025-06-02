@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[5451],{5451:(e,s,t)=>{e.exports=t.p+"static/media/Isabel_Rademaker.55b6c03355ed541b7acd.JPG"}}]);

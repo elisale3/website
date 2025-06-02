@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[7100],{7100:(e,t,s)=>{e.exports=s.p+"static/media/Andy_Metcalf.ee9460f4af5ce70f722b.jpg"}}]);

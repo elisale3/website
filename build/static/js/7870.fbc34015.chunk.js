@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[7870],{7870:(e,s,t)=>{e.exports=t.p+"static/media/Jay_Gao.06f4496d0d8ede00cb82.JPG"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[7696],{7696:(e,s,t)=>{e.exports=t.p+"static/media/Edna_Ho.94af7893e82f8ca9c551.JPG"}}]);

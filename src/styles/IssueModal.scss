@@ -1,0 +1,49 @@
+@import "./Constants.scss";
+
+.issue-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.issue-modal-content {
+  background: $color-white;
+  padding: $spacer-3;
+  border-radius: 0.5rem;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+  position: relative;
+}
+
+.issue-modal-close {
+  position: absolute;
+  top: $spacer-1;
+  right: $spacer-1;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.issue-modal-title {
+  margin-bottom: $spacer-2;
+}
+
+.issue-modal-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: $spacer-2;
+}
+
+.issue-modal-description {
+  font-size: 1rem;
+  line-height: 1.5;
+}

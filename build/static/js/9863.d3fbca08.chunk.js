@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[9863],{9863:(e,s,t)=>{e.exports=t.p+"static/media/John_Noah_Pope.43facef0b12b04bc5236.JPG"}}]);

@@ -5,8 +5,14 @@ import IssueBlock from "../components/issueBlock";
 import IssueDescription from "../components/issueDescription";
 import "../styles/Issues.scss";
 import FeaturedIssueGallery from "../components/featuredIssueGallery";
+import IssueModal from "../components/issueModal";
 
 class Issues extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { selectedIssue: null };
+  }
+
   componentDidMount() {
     window.scrollTo(0, 0)
   }
@@ -29,6 +35,7 @@ class Issues extends React.Component {
                         title={issue.title}
                         link={issue.link}
                         description={issue.description}
+                        onClick={() => this.setState({ selectedIssue: issue })}
                       />
                   </Col>
                 </React.Fragment>
@@ -37,6 +44,7 @@ class Issues extends React.Component {
           </Row>
           </div>
         </Container>
+        <IssueModal issue={this.state.selectedIssue} onClose={() => this.setState({ selectedIssue: null })} />
       </div>
       
     )

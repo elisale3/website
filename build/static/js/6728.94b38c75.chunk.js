@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[6728],{6728:(e,s,t)=>{e.exports=t.p+"static/media/Alyssa_Verheem.a855c6167f946acbf151.JPG"}}]);

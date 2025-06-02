@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[2054],{2054:(e,s,t)=>{e.exports=t.p+"static/media/Ashley_Nguyen.c57d94bc370b3b7f6028.jpg"}}]);

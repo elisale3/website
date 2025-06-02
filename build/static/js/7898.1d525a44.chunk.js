@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[7898],{7898:(e,s,t)=>{e.exports=t.p+"static/media/Preeya_Govil.460d98c093d60e275582.jpeg"}}]);

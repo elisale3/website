@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[1682],{1682:(e,s,t)=>{e.exports=t.p+"static/media/Laura_Liang.23b6e061bfbc609b41f9.jpg"}}]);

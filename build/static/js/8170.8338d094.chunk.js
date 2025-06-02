@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[8170],{8170:(e,s,t)=>{e.exports=t.p+"static/media/Ann_Yang.4e2e9270642c7fd20a3a.jpg"}}]);

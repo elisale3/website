@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[9334],{9334:(e,s,t)=>{e.exports=t.p+"static/media/Krista_Lopez.4e99317a9647c2997ded.jpg"}}]);

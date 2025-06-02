@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[4160],{4160:(e,s,t)=>{e.exports=t.p+"static/media/Julian_Aguilar.363f51cf48e9f6cf8ccf.jpg"}}]);

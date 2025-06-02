@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[4507],{4507:(e,s,t)=>{e.exports=t.p+"static/media/Zander_Vilaysane.0ff4bfb27107e2c955ec.JPG"}}]);
