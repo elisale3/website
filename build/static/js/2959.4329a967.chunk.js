@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[2959],{2959:(e,a,t)=>{e.exports=t.p+"static/media/Alexandra_Citra.8ea10375add72d43aee9.webp"}}]);

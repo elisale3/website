@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[1850],{1850:(e,s,t)=>{e.exports=t.p+"static/media/Ky_en_dokes.3ee888e527ab2f86a0c1.webp"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[4365],{4365:(e,t,s)=>{e.exports=s.p+"static/media/Rita_Xiong.fe59c6a854789956e0af.webp"}}]);

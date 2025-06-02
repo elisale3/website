@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[8941],{8941:(e,a,s)=>{e.exports=s.p+"static/media/Aidan_Sidikpramana.3bd355056afb96f756dc.jpg"}}]);

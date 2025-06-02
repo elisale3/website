@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[9485],{9485:(e,a,s)=>{e.exports=s.p+"static/media/Sravya_Nimmagadda.df3220b44f50dc807b76.webp"}}]);

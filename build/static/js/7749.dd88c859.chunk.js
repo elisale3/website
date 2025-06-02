@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[7749],{7749:(e,s,t)=>{e.exports=t.p+"static/media/Ahliyah_Luna.fe0389ed24567e1fc374.jpeg"}}]);

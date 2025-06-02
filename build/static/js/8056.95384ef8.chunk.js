@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[8056],{8056:(e,s,t)=>{e.exports=t.p+"static/media/Eva_Zheng.64466097917f9835c7b0.jpg"}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[5237],{5237:(e,s,t)=>{e.exports=t.p+"static/media/Dilan_Adhikari.6474e4094b68480d8148.jpg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[7076],{7076:(e,a,s)=>{e.exports=s.p+"static/media/Laura_Liang.8c59aaac6ba9d09bc516.webp"}}]);

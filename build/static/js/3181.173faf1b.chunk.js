@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[3181],{3181:(e,t,s)=>{e.exports=s.p+"static/media/Grace_Morton.941cd8369438cd6ce961.webp"}}]);

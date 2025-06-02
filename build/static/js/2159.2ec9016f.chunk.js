@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[2159],{2159:(e,s,t)=>{e.exports=t.p+"static/media/Jacobo_Cortes.de7cfa26d502de70397e.JPG"}}]);

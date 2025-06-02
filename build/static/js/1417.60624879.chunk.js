@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[1417],{1417:(e,s,t)=>{e.exports=t.p+"static/media/Silvia_Lee.1d87425f2f132a20d358.JPG"}}]);

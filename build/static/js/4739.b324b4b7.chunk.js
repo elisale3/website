@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[4739],{4739:(e,s,t)=>{e.exports=t.p+"static/media/Jasmine_Nguyen.5f782af220630b4dc03d.webp"}}]);

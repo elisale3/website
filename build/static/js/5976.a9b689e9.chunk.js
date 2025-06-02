@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[5976],{5976:(e,s,t)=>{e.exports=t.p+"static/media/Isabel_Rademaker.974f4b9bcc94f9f33617.webp"}}]);

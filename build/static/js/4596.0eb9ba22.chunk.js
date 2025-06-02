@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[4596],{4596:(e,s,t)=>{e.exports=t.p+"static/media/Isabelle_Liang.4e9d67a166d36e262cfa.webp"}}]);

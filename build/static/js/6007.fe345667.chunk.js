@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[6007],{6007:(e,s,a)=>{e.exports=a.p+"static/media/Talia_Thessen.3eefbeaa119a4ed90143.webp"}}]);

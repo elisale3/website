@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[929],{929:(e,a,b)=>{e.exports=b.p+"static/media/Leanna_Gower.ba9dbb6520a20c153bfa.webp"}}]);

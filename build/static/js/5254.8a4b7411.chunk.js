@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[5254],{5254:(e,t,s)=>{e.exports=s.p+"static/media/Catherine_Hoang.8703115fdea95310beaf.webp"}}]);

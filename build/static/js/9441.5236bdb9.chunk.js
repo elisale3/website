@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[9441],{9441:(e,t,s)=>{e.exports=s.p+"static/media/Renee_Agatep.e1315ebc9f386286c0f4.jpg"}}]);

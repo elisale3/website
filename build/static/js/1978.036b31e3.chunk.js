@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[1978],{1978:(e,s,t)=>{e.exports=t.p+"static/media/Anica_Xie.ce34de6826dabcf17a16.webp"}}]);

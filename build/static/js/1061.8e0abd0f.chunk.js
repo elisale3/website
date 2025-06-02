@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[1061],{1061:(e,t,s)=>{e.exports=s.p+"static/media/Catherine_Hoang.d9063d7fb174ca4adcf1.JPG"}}]);

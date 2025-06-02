@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[5291],{5291:(e,s,t)=>{e.exports=t.p+"static/media/Ishani_Solanki.3d71c046b540c5f091e0.webp"}}]);

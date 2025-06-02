@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[7458],{7458:(e,s,t)=>{e.exports=t.p+"static/media/Alex_Lara.122004a4e42cd6ecab92.webp"}}]);

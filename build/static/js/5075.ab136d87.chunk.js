@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[5075],{5075:(e,s,t)=>{e.exports=t.p+"static/media/Andrew_Alvarado.9605d30df11f30c5c1ef.webp"}}]);

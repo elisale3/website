@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[2802],{2802:(e,s,t)=>{e.exports=t.p+"static/media/Kadie_Qi.2050200ca5d82d88cf63.jpg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[1725],{1725:(e,t,s)=>{e.exports=s.p+"static/media/Olivia_Garrett.dbf48692e26a303a5327.webp"}}]);

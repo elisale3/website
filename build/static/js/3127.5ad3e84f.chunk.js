@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[3127],{3127:(e,t,s)=>{e.exports=s.p+"static/media/Natalie_Kong.c4dfcccd409a011b92b9.webp"}}]);

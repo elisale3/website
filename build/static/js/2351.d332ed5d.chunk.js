@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[2351],{2351:(e,s,t)=>{e.exports=t.p+"static/media/Lauren_Cho.718a0732a6e7b4949b18.webp"}}]);

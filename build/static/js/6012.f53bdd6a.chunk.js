@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[6012],{6012:(e,s,t)=>{e.exports=t.p+"static/media/Jacobo_Cortes.720d23eb3d3421151075.webp"}}]);

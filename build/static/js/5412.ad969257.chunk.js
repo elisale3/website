@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[5412],{5412:(e,s,a)=>{e.exports=a.p+"static/media/Maggie_Blaisdell.235898f6afaee267e75a.jpg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[2505],{2505:(e,t,s)=>{e.exports=s.p+"static/media/Beatriz_Chen.5140b35e755ee4a5fb01.webp"}}]);

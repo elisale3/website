@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[2475],{2475:(e,d,t)=>{e.exports=t.p+"static/media/Dani_Rodriguez_Arzate.e1da6edd863dadadf66b.webp"}}]);

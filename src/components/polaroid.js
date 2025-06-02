@@ -3,14 +3,19 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import '../styles/polaroid.scss';
 
-const Polaroid = ({picture, name, position}) => {
-
+const Polaroid = ({picture, name}) => {
   const[imageSrc, setImageSrc] = useState(null);
 
   useEffect(() => {
     if(typeof picture === "function") {
-      picture().then((module) => setImageSrc(module.default));
+      picture().then((module) => {
+        // Get the filename from the module.default path
+        const filename = module.default.split('/').pop();
+        // Construct the path to the WebP image in the build directory
+        setImageSrc(`/static/media/${filename.replace(/\.(jpg|jpeg|png)$/i, '.webp')}`);
+      });
     } else {
+      // For direct image paths, use as is
       setImageSrc(picture);
     }
   }, [picture]);
@@ -18,16 +23,15 @@ const Polaroid = ({picture, name, position}) => {
   return(
     <div className="polaroid-container">
       <div className="polaroid-frame">
-          <h6 className="polaroid-position">
-            {position}
-          </h6>
         <div className="image-frame">
           {imageSrc && (
             <LazyLoadImage 
               className="polaroid-image" 
               src={imageSrc} 
               alt={name} 
-              effect="blur" 
+              effect="blur"
+              threshold={100}
+              loading="lazy"
             />
           )}
         </div>

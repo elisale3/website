@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[5364],{5364:(e,s,t)=>{e.exports=t.p+"static/media/Leah_Jenkins.8ad7a83df5d0fc3d9010.webp"}}]);

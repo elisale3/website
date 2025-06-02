@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[7055],{7055:(e,a,s)=>{e.exports=s.p+"static/media/Aidan_Sidikpramana.44308ef4d9f1f1a1eb2d.webp"}}]);

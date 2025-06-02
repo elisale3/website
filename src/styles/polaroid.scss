@@ -2,22 +2,50 @@
 
 .polaroid-container {
   margin-bottom: $spacer-3;
+  max-width: 250px; // Limit the maximum width
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .polaroid-frame {
-  // border: .25rem solid $color-black;
-  // background-color: $color-white;
   color: $color-white;
-}
-
-.polaroid-image {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .image-frame {
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #f5f5f5;
+  line-height: 0; // Remove extra space from inline elements
+
+  .image-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+
+    .loading-spinner {
+      width: 30px;
+      height: 30px;
+      border: 3px solid #f3f3f3;
+      border-top: 3px solid #3498db;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+  }
+
+  .polaroid-image {
+    width: 100%;
+    display: block;
+    vertical-align: bottom; // Remove extra space below image
+  }
 }
 
 .polaroid-info {
@@ -27,6 +55,16 @@
   color: $color-white;
 }
 
-.polaroid-position {
-  padding-top: $spacer-1;
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+// Add responsive image sizes
+@media (max-width: 768px) {
+  .polaroid-container {
+    .image-frame {
+      padding-top: 75%; // 4:3 aspect ratio for mobile
+    }
+  }
 }

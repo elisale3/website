@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[2470],{2470:(e,s,t)=>{e.exports=t.p+"static/media/Cameron_Cao.c6fb04d0fb9d6145a1c3.webp"}}]);

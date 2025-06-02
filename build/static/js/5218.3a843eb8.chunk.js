@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[5218],{5218:(e,s,t)=>{e.exports=t.p+"static/media/Jon_Picinich.3a51422bae97b7451ccb.jpg"}}]);

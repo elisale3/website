@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[3858],{3858:(e,s,t)=>{e.exports=t.p+"static/media/Jamie_Lim.8565fe0c9430394a81be.webp"}}]);

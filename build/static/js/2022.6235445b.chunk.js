@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[2022],{2022:(e,s,t)=>{e.exports=t.p+"static/media/Sophia_Regier.ff04f706ea9b631aba74.webp"}}]);

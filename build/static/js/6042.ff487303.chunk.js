@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[6042],{6042:(e,a,s)=>{e.exports=s.p+"static/media/Jasleen_Sahota.dce8af4e38fa57a3f8e6.webp"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[4608],{4608:(e,s,t)=>{e.exports=t.p+"static/media/Daniel_Nepomuceno.ae7ed27d865c4b367180.webp"}}]);

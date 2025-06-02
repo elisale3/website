@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[6648],{6648:(e,s,t)=>{e.exports=t.p+"static/media/Sydney_McDonald.278b3a425acb4bdf7659.webp"}}]);

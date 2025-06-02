@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[8849],{8849:(e,t,s)=>{e.exports=s.p+"static/media/Anthony_Mercado.2fecd0e3a772fc1c06bf.jpeg"}}]);

@@ -4,33 +4,16 @@ import {teamInfo} from "./teamInfo"
 import Polaroid from "./polaroid";
 import "../styles/TeamGrid.scss";
 
-const isImageCached = (src) => {
-  return localStorage.getItem(src);
-};
-
-const cacheImage = (src) => {
-  const img = new Image();
-  img.src = src;
-  img.onload = () => {
-    localStorage.setItem(src, src); 
-  };
-};
-
 class TeamGrid extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       showModal: -1,
+      loadedImages: new Set()
     };
   }
 
   componentDidMount() {
-    const images = teamInfo.map((teamMember) => teamMember.picture);
-    images.forEach((imgSrc) => {
-      if (!isImageCached(imgSrc)) {
-        cacheImage(imgSrc);
-      }
-    });
     const cachedState = localStorage.getItem("teamState");
     if (cachedState) {
       this.setState(JSON.parse(cachedState));
@@ -38,7 +21,6 @@ class TeamGrid extends React.Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    // Save the state to localStorage whenever it changes
     if (prevState.showModal !== this.state.showModal) {
       localStorage.setItem("teamState", JSON.stringify(this.state));
     }
@@ -57,11 +39,34 @@ class TeamGrid extends React.Component {
   };
 
   componentWillUnmount() {
-    // Cleanup when the component is unmounted
     this.setState({ showModal: -1 });
   }
 
-  render () {
+  renderTeamSection = (position, title) => {
+    const teamMembers = teamInfo.filter(member => member.position === position);
+    
+    return (
+      <>
+        <Row className="top-margin-section">
+          <h4>{title}</h4>
+        </Row>
+        <Row className="team-row">
+          {teamMembers.map((teamMember, idx) => (
+            <Col xs={6} sm={6} md={3} l={4} key={teamMember.name}>
+              <div onClick={() => this.openModal(idx)}>
+                <Polaroid
+                  picture={teamMember.picture}
+                  name={teamMember.name}
+                />
+              </div>
+            </Col>
+          ))}
+        </Row>
+      </>
+    );
+  };
+
+  render() {
     return (
       <div className="team-grid-section">
         <Container className="team-grid-container">
@@ -71,186 +76,19 @@ class TeamGrid extends React.Component {
           <Row className="top-margin-subsection">
             <h3>2024 - 2025</h3>
           </Row>
-            <div className="team">
-              <Row className="top-margin-section">
-                <h4>Editors in Chief</h4>
-              </Row>
-              <Row className>
-                {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position === 'Editor in Chief') {
-                        return (
-                          <React.Fragment key={teamMember.name}>
-                            <Col xs={6} sm={6} md={3} l={4} key={idx}>
-                              <div onClick={() => this.openModal(idx)}>
-                                <Polaroid
-                                  picture={teamMember.picture}
-                                  name={teamMember.name}
-                                />
-                              </div>
-                            </Col>
-                          </React.Fragment>
-                        );
-                      }
-                  })}
-              </Row>
-
-              <Row className="top-margin-section">
-                <h4>Photography</h4>
-              </Row>
-              <Row className>
-                {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position === 'Photographer') {
-                        return (
-                          <React.Fragment key={teamMember.name}>
-                            <Col xs={6} sm={6} md={3} l={4} key={idx}>
-                              <div onClick={() => this.openModal(idx)}>
-                                <Polaroid
-                                  picture={teamMember.picture}
-                                  name={teamMember.name}
-                                />
-                              </div>
-                            </Col>
-                          </React.Fragment>
-                        );
-                      }
-                  })}
-              </Row>
-
-              <Row className="top-margin-section">
-                <h4>Writing</h4>
-              </Row>
-              <Row className>
-                {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position === 'Writer') {
-                        return (
-                          <React.Fragment key={teamMember.name}>
-                            <Col xs={6} sm={6} md={3} l={4} key={idx}>
-                              <div onClick={() => this.openModal(idx)}>
-                                <Polaroid
-                                  picture={teamMember.picture}
-                                  name={teamMember.name}
-                                />
-                              </div>
-                            </Col>
-                          </React.Fragment>
-                        );
-                      }
-                  })}
-              </Row>
-
-              <Row className="top-margin-section">
-                <h4>Graphic Design</h4>
-              </Row>
-              <Row className>
-                {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position === 'Graphic Designer') {
-                        return (
-                          <React.Fragment key={teamMember.name}>
-                            <Col xs={6} sm={6} md={3} l={4} key={idx}>
-                              <div onClick={() => this.openModal(idx)}>
-                                <Polaroid
-                                  picture={teamMember.picture}
-                                  name={teamMember.name}
-                                />
-                              </div>
-                            </Col>
-                          </React.Fragment>
-                        );
-                      }
-                  })}
-              </Row>
-
-              <Row className="top-margin-section">
-                <h4>External</h4>
-              </Row>
-              <Row className>
-                {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position === 'External') {
-                        return (
-                          <React.Fragment key={teamMember.name}>
-                            <Col xs={6} sm={6} md={3} l={4} key={idx}>
-                              <div onClick={() => this.openModal(idx)}>
-                                <Polaroid
-                                  picture={teamMember.picture}
-                                  name={teamMember.name}
-                                />
-                              </div>
-                            </Col>
-                          </React.Fragment>
-                        );
-                      }
-                  })}
-              </Row>
-
-              <Row className="top-margin-section">
-                <h4>Marketing</h4>
-              </Row>
-              <Row className>
-                {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position === 'Marketing') {
-                        return (
-                          <React.Fragment key={teamMember.name}>
-                            <Col xs={6} sm={6} md={3} l={4} key={idx}>
-                              <div onClick={() => this.openModal(idx)}>
-                                <Polaroid
-                                  picture={teamMember.picture}
-                                  name={teamMember.name}
-                                />
-                              </div>
-                            </Col>
-                          </React.Fragment>
-                        );
-                      }
-                  })}
-              </Row>
-
-              <Row className="top-margin-section">
-                <h4>Styling</h4>
-              </Row>
-              <Row className>
-                {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position === 'Stylist') {
-                        return (
-                          <React.Fragment key={teamMember.name}>
-                            <Col xs={6} sm={6} md={3} l={4} key={idx}>
-                              <div onClick={() => this.openModal(idx)}>
-                                <Polaroid
-                                  picture={teamMember.picture}
-                                  name={teamMember.name}
-                                />
-                              </div>
-                            </Col>
-                          </React.Fragment>
-                        );
-                      }
-                  })}
-              </Row>
-              
-              <Row className="top-margin-section">
-                <h4>Web Development</h4>
-              </Row>
-              <Row className>
-                {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position === 'Web Developer') {
-                        return (
-                          <React.Fragment key={teamMember.name}>
-                            <Col xs={6} sm={6} md={3} l={4} key={idx}>
-                              <div onClick={() => this.openModal(idx)}>
-                                <Polaroid
-                                  picture={teamMember.picture}
-                                  name={teamMember.name}
-                                />
-                              </div>
-                            </Col>
-                          </React.Fragment>
-                        );
-                      }
-                  })}
-              </Row>
+          <div className="team">
+            {this.renderTeamSection('Editor in Chief', 'Editors in Chief')}
+            {this.renderTeamSection('Photographer', 'Photography')}
+            {this.renderTeamSection('Writer', 'Writing')}
+            {this.renderTeamSection('Graphic Designer', 'Graphic Design')}
+            {this.renderTeamSection('External', 'External')}
+            {this.renderTeamSection('Marketing', 'Marketing')}
+            {this.renderTeamSection('Stylist', 'Styling')}
+            {this.renderTeamSection('Web Developer', 'Web Development')}
           </div>
         </Container>
       </div>
-    )
+    );
   }
 }
 

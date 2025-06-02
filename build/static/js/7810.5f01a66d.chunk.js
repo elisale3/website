@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[7810],{7810:(e,s,t)=>{e.exports=t.p+"static/media/Venice_Poggi.2ebc3a299fa18e5ad6ff.webp"}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[7628],{7628:(e,a,t)=>{e.exports=t.p+"static/media/Samantha_Pham.ab6939c9740d29a9607d.jpeg"}}]);

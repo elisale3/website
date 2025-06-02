@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[7313],{7313:(e,s,t)=>{e.exports=t.p+"static/media/Jersey_Rosetes.c56802216c0b84781377.webp"}}]);

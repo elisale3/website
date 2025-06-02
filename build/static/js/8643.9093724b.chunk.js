@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[8643],{8643:(e,s,t)=>{e.exports=t.p+"static/media/Vanessa_Mak.69fc158b0edad3bcf002.JPG"}}]);

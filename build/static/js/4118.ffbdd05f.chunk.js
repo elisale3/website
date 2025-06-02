@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[4118],{4118:(e,s,t)=>{e.exports=t.p+"static/media/Jasmine_Lauresta.85f9f32cf36705cca290.webp"}}]);
