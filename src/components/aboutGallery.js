@@ -56,7 +56,7 @@ class AboutGallery extends React.Component {
           aria-label="Previous"
           onClick={this.handlePrev}
         >
-          &#8592;
+          &lt;
         </button>
         <AliceCarousel
           ref={this.carouselRef}
@@ -75,7 +75,7 @@ class AboutGallery extends React.Component {
           aria-label="Next"
           onClick={this.handleNext}
         >
-          &#8594;
+          &gt;
         </button>
       </div>
     );
