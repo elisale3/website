@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/youTrend.scss";
 import { BsInstagram, BsFacebook } from "react-icons/bs";
-import { FaMedium } from "react-icons/fa";
+import { SiSubstack } from "react-icons/si";
 import img1 from "../static/youTrend-imgs/img-1.png";
 import img2 from "../static/youTrend-imgs/img-2.png";
 import img3 from "../static/youTrend-imgs/img-3.png";
@@ -17,7 +17,7 @@ class YouTrend extends React.Component {
   render() {
     const facebook = "https://www.facebook.com/trenducsd/";
     const instagram = "https://www.instagram.com/trenducsd/";
-    const medium = "https://medium.com/@trenducsd";
+    const substack = "https://trendmagazine.substack.com/";
 
     return (
       <div className="youTrend-container">
@@ -33,8 +33,8 @@ class YouTrend extends React.Component {
               <a href={facebook} target="_blank" rel="noopener noreferrer">
                 <BsFacebook />
               </a>
-              <a href={medium} target="_blank" rel="noopener noreferrer"> 
-                <FaMedium />
+              <a href={substack} target="_blank" rel="noopener noreferrer"> 
+                <SiSubstack />
               </a>
             </div>
           </div>

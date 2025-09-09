@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavLink } from 'react-router-dom';
 import { BsInstagram, BsFacebook } from "react-icons/bs";
-import { FaMedium } from "react-icons/fa";
+import { SiSubstack } from "react-icons/si";
 import { slide as Menu } from 'react-burger-menu';
 import '../styles/Navbar.scss';
 
@@ -60,7 +60,7 @@ class Navbar extends React.Component {
 
     const facebook = "https://www.facebook.com/trenducsd/";
     const instagram = "https://www.instagram.com/trenducsd/";
-    const medium = "https://medium.com/@trenducsd";
+    const substack = "https://trendmagazine.substack.com/";
     const { windowWidth } = this.state; 
     
     return (
@@ -83,7 +83,7 @@ class Navbar extends React.Component {
                 <NavLink to="/about">
                   <p><a href={"../pages/about.js"}>About</a></p>
                 </NavLink>
-                <p><a className="blog" href={medium} target="_blank" rel="noopener noreferrer"> Blog
+                <p><a className="blog" href={substack} target="_blank" rel="noopener noreferrer"> Blog
                   </a></p>
                 <NavLink to="/team">
                   <p><a href={"../pages/team.js"}>Team</a></p>
@@ -107,8 +107,8 @@ class Navbar extends React.Component {
                 <a href={facebook}>
                   <BsFacebook />
                 </a>
-                <a href={medium}> 
-                  <FaMedium />
+                <a href={substack}> 
+                  <SiSubstack />
                 </a>
               </div> */}
             </div>
@@ -135,7 +135,7 @@ class Navbar extends React.Component {
                 <NavLink to="/about" onTouchEnd={() => this.handleCloseMenu()}>
                 <h4><a href={"../pages/about.js"}>About</a></h4>
                 </NavLink>
-                <h4><a className="blog" href={medium}> BLOG
+                <h4><a className="blog" href={substack}> BLOG
                   </a></h4>
                 <NavLink to="/team" onTouchEnd={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/team.js"}>TEAM</a></h4>
@@ -150,8 +150,8 @@ class Navbar extends React.Component {
                   <a className="vertical-socials" href={facebook}>
                     <BsFacebook />
                   </a>
-                  <a className="vertical-socials" href={medium}> 
-                    <FaMedium />
+                  <a className="vertical-socials" href={substack}> 
+                    <SiSubstack />
                   </a>
                 </div>
               </Menu>
