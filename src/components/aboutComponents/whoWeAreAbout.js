@@ -1,19 +1,25 @@
 // src/components/aboutComponents/whoWeAreAbout.js
 
 import React from "react";
+import "../../styles/WhoWeAre.scss";
+import AllStaffPic from "../../static/who-are-we-imgs/AllStaffPic.JPG";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 class WhoWeAreAbout extends React.Component {
   render() {
     return (
-      <div className="who-we-are-about" style={{
-        padding: "40px 20px",
-        backgroundColor: "#f8f9fa",
-        borderBottom: "1px solid #e9ecef"
-      }}>
-        <h2 style={{ fontSize: "2rem", marginBottom: "20px", color: "#333", textAlign: "center" }}>Who We Are</h2>
-        <p style={{ fontSize: "1.1rem", color: "#666", textAlign: "center", maxWidth: "600px", margin: "0 auto" }}>
-          Discover the story behind our organization and the values that drive us.
-        </p>
+      <div className="who-we-are-container">
+        <div className="content">
+          <div className="image-large">
+            <LazyLoadImage src={AllStaffPic} alt="Who We Are" />
+          </div>
+          <div className="text-section">
+            <h2 className="title">Who We Are</h2>
+            <p className="description">
+              Discover the story behind our organization and the values that drive us.
+            </p>
+          </div>
+        </div>
       </div>
     );
   }
