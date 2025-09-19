@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
-import FilmStrip from "../components/filmStrip";
+import FilmStrip from "../components/teamComponents/filmStrip";
 import "../styles/Team.scss";
-const LazyLoadedTeamGrid = React.lazy(() => import('../components/teamGrid'));
+const LazyLoadedTeamGrid = React.lazy(() => import('../components/teamComponents/teamGrid'));
 
 class Team extends React.Component {
   componentDidMount() {

@@ -1,11 +1,11 @@
 import { scan } from "react-scan";
 import React from "react";
-import FeaturedIssue from "../components/featuredIssue";
-import WhoWeAre from "../components/whoWeAre";
-import HomepageVideo from "../components/homepageVideo.js";
-import Blogs from "../components/blogs.js";
-import Upcoming from "../components/upcomingEvents";
-import YouTrend from "../components/youTrend.js";
+import FeaturedIssue from "../components/homeComponents/featuredIssue";
+import WhoWeAre from "../components/homeComponents/whoWeAre";
+import HomepageVideo from "../components/homeComponents/homepageVideo.js";
+import Blogs from "../components/homeComponents/blogs.js";
+import Upcoming from "../components/homeComponents/upcomingEvents";
+import YouTrend from "../components/homeComponents/youTrend.js";
 import "../styles/Home.scss";
 
 scan({

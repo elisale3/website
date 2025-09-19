@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
-import { issuesInfo } from "../components/issuesInfo";
-import IssueBlock from "../components/issueBlock";
-import IssueDescription from "../components/issueDescription";
+import { issuesInfo } from "../components/issuesComponents/issuesInfo";
+import IssueBlock from "../components/issuesComponents/issueBlock";
+import IssueDescription from "../components/issuesComponents/issueDescription";
 import "../styles/Issues.scss";
-import FeaturedIssueGallery from "../components/featuredIssueGallery";
-import IssueModal from "../components/issueModal";
+import FeaturedIssueGallery from "../components/issuesComponents/featuredIssueGallery";
+import IssueModal from "../components/issuesComponents/issueModal";
 
 class Issues extends React.Component {
   constructor(props) {

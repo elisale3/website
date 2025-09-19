@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[1933],{4314:(e,s,t)=>{e.exports=t.p+"static/media/Ryan_Pocinich.a3c1342dd0a30ef0eff0.jpg"}}]);

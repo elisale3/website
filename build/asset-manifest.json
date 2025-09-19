@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.dd4332e8.css",
-    "main.js": "/static/js/main.8edef385.js",
-    "static/css/4624.a53e4ba5.chunk.css": "/static/css/4624.a53e4ba5.chunk.css",
-    "static/js/4624.410d5419.chunk.js": "/static/js/4624.410d5419.chunk.js",
+    "main.js": "/static/js/main.30e8fe17.js",
+    "static/css/6877.15fbb8fd.chunk.css": "/static/css/6877.15fbb8fd.chunk.css",
+    "static/js/6877.234df71f.chunk.js": "/static/js/6877.234df71f.chunk.js",
     "static/js/6453.1e3a2632.chunk.js": "/static/js/6453.1e3a2632.chunk.js",
     "static/js/8807.bd5c76d7.chunk.js": "/static/js/8807.bd5c76d7.chunk.js",
     "static/js/7471.b17a5609.chunk.js": "/static/js/7471.b17a5609.chunk.js",
@@ -16,7 +16,7 @@
     "static/js/8549.360e058d.chunk.js": "/static/js/8549.360e058d.chunk.js",
     "static/js/1417.60624879.chunk.js": "/static/js/1417.60624879.chunk.js",
     "static/js/8643.9093724b.chunk.js": "/static/js/8643.9093724b.chunk.js",
-    "static/js/1933.910846ae.chunk.js": "/static/js/1933.910846ae.chunk.js",
+    "static/js/1933.736e0236.chunk.js": "/static/js/1933.736e0236.chunk.js",
     "static/js/7749.dd88c859.chunk.js": "/static/js/7749.dd88c859.chunk.js",
     "static/js/753.0e026f2f.chunk.js": "/static/js/753.0e026f2f.chunk.js",
     "static/js/7628.0e1d28fa.chunk.js": "/static/js/7628.0e1d28fa.chunk.js",
@@ -187,6 +187,7 @@
     "static/media/(re)connecting.jpg": "/static/media/(re)connecting.c062e46c5d0ac9d06c6e.jpg",
     "static/media/featured_6.jpg": "/static/media/featured_6.ad5be60ba38382b74241.jpg",
     "static/media/img-6.png": "/static/media/img-6.720e758c05fcbbe358f6.png",
+    "static/media/about_04.jpg": "/static/media/about_04.4608e2a0be1ad8a9a7c9.jpg",
     "static/media/Raleway-Medium.ttf": "/static/media/Raleway-Medium.1af9f1e9f3fd4766df83.ttf",
     "static/media/Raleway-Regular.ttf": "/static/media/Raleway-Regular.9ade142e81dd8d55cd32.ttf",
     "static/media/Raleway-SemiBold.ttf": "/static/media/Raleway-SemiBold.243af299ad3631bfc369.ttf",
@@ -196,18 +197,26 @@
     "static/media/img2.png": "/static/media/img2.2b54fafb7d6037e2c1fe.png",
     "static/media/AlteHaasGroteskBold.ttf": "/static/media/AlteHaasGroteskBold.51e503d8635aaf81c93d.ttf",
     "static/media/AlteHaasGroteskRegular.ttf": "/static/media/AlteHaasGroteskRegular.6ae6623ec966c59db9f2.ttf",
+    "static/media/about_03.jpg": "/static/media/about_03.987964cd8cc54f3f76ae.jpg",
     "static/media/metamorphosis.jpg": "/static/media/metamorphosis.682a168ed5b83004121f.jpg",
+    "static/media/about_09.jpg": "/static/media/about_09.45640a3859e9a50fe099.jpg",
     "static/media/vault.jpg": "/static/media/vault.223fb01caec4d24674c5.jpg",
+    "static/media/about_01.jpg": "/static/media/about_01.72b8f1c8bdae3b25d449.jpg",
+    "static/media/about_02.jpg": "/static/media/about_02.a731d6d738ae7011cc14.jpg",
     "static/media/img1.png": "/static/media/img1.2c0a8bb92baf63261522.png",
+    "static/media/about_06.jpg": "/static/media/about_06.e6b9eb04ad90b01ba498.jpg",
+    "static/media/about_05.jpg": "/static/media/about_05.a67e7ae004d591ffffdc.jpg",
+    "static/media/about_08.jpg": "/static/media/about_08.64c5c21d4feb14798406.jpg",
+    "static/media/about_07.jpg": "/static/media/about_07.4a5841f26fb1ffa65041.jpg",
     "index.html": "/index.html",
     "main.dd4332e8.css.map": "/static/css/main.dd4332e8.css.map",
-    "main.8edef385.js.map": "/static/js/main.8edef385.js.map",
-    "4624.a53e4ba5.chunk.css.map": "/static/css/4624.a53e4ba5.chunk.css.map",
-    "4624.410d5419.chunk.js.map": "/static/js/4624.410d5419.chunk.js.map",
+    "main.30e8fe17.js.map": "/static/js/main.30e8fe17.js.map",
+    "6877.15fbb8fd.chunk.css.map": "/static/css/6877.15fbb8fd.chunk.css.map",
+    "6877.234df71f.chunk.js.map": "/static/js/6877.234df71f.chunk.js.map",
     "6453.1e3a2632.chunk.js.map": "/static/js/6453.1e3a2632.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd4332e8.css",
-    "static/js/main.8edef385.js"
+    "static/js/main.30e8fe17.js"
   ]
 }
