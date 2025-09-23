@@ -3,7 +3,7 @@
 // Artifact Description About section
 .artifact-description-about {
   min-height: 100vh;
-  padding: 5px 20px 40px 20px;
+  padding: 5px 20px 20px 20px; /* reduced bottom padding */
   position: relative;
   overflow: visible;
 }
@@ -164,7 +164,7 @@
 // Responsive design
 @media screen and (max-width: 1200px) {
   .artifact-description-about {
-    padding: 5px 15px 30px 15px;
+    padding: 5px 15px 15px 15px; /* reduced bottom padding */
   }
   
   .artifact-main-content {
@@ -204,7 +204,7 @@
 
 @media screen and (max-width: 900px) {
   .artifact-description-about {
-    padding: 5px 15px 25px 15px;
+    padding: 5px 15px 12px 15px; /* reduced bottom padding */
     min-height: 70vh;
   }
   
@@ -277,7 +277,10 @@
 }
 
 @media screen and (max-width: 600px) {
-  .artifact-description-about { overflow: visible; }
+  .artifact-description-about { 
+    overflow: visible; 
+    padding: 5px 15px 8px 15px; /* reduced bottom padding */
+  }
   .artifact-description-content { overflow: visible; }
   .artifact-main-content { overflow: visible; }
   .center-content {

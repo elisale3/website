@@ -3,8 +3,8 @@
 // Dark gray background container for about page sections
 .about-section-container {
   background: transparent;
-  min-height: 100vh;
-  padding: 80px 40px;
+  min-height: 60vh; /* reduced from 100vh */
+  padding: 40px 40px 20px 40px; /* reduced bottom padding */
   position: relative;
   overflow: hidden;
 
@@ -32,7 +32,8 @@
   min-height: 500px;
 
   .text-content {
-    padding-right: 40px;
+    padding-right: 60px; /* increased padding to prevent overlap */
+    max-width: calc(50% - 30px); /* ensure text doesn't exceed half width minus gap */
     
     .section-title {
       font-size: 3.5rem;
@@ -45,11 +46,12 @@
     }
 
     .section-description {
-      font-size: 1.1rem;
-      line-height: 1.7;
+      font-size: 1.6rem; /* match artifact description */
+      line-height: 1.6;
       color: white;
-      max-width: 500px;
+      max-width: 100%; /* use full available width within text-content */
       opacity: 0.95;
+      word-wrap: break-word; /* ensure long words wrap properly */
     }
   }
 
@@ -66,8 +68,8 @@
     img {
       width: 100%;
       height: 100%;
-      object-fit: contain;
-      border-radius: 8px;
+      object-fit: cover; /* changed from contain to cover for better corner radius visibility */
+      border-radius: 0; /* let container handle border radius */
     }
   }
 }
@@ -98,8 +100,8 @@
     }
 
     .section-description {
-      font-size: 1.1rem;
-      line-height: 1.7;
+      font-size: 1.6rem; /* match artifact description */
+      line-height: 1.6;
       color: white !important;
       max-width: 500px;
       opacity: 1;
@@ -121,16 +123,7 @@
     overflow: hidden;
 
     &::before {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 50px;
-      height: 50px;
-      border: 2px dashed #888;
-      border-radius: 6px;
-      background: rgba(255,255,255,0.05);
+      display: none; /* remove outline placeholder */
     }
   }
 }
@@ -138,7 +131,8 @@
 // Responsive design
 @media screen and (max-width: 1200px) {
   .about-section-container {
-    padding: 60px 30px;
+    padding: 30px 30px 15px 30px; /* reduced bottom padding */
+    min-height: 50vh; /* reduced height */
   }
 
   .who-we-are-about,
@@ -149,6 +143,7 @@
 
   .who-we-are-about .text-content {
     padding: 0 20px;
+    max-width: calc(50% - 20px); /* maintain text boundary at 1200px */
   }
 
   .what-we-do-about .text-content {
@@ -162,7 +157,8 @@
 
 @media screen and (max-width: 900px) {
   .about-section-container {
-    padding: 40px 20px;
+    padding: 20px 20px 10px 20px; /* reduced bottom padding */
+    min-height: 45vh; /* reduced height */
   }
 
   .who-we-are-about {
@@ -202,14 +198,15 @@
   }
 
   .section-description {
-    font-size: 2rem !important;
-    line-height: 3rem !important;
+    font-size: 1.5rem !important; /* match artifact description */
+    line-height: 1.6 !important;
   }
 }
 
 @media screen and (max-width: 600px) {
   .about-section-container {
-    padding: 30px 15px;
+    padding: 15px 15px 8px 15px; /* reduced bottom padding */
+    min-height: 40vh; /* reduced height */
   }
 
   .who-we-are-about,
@@ -239,7 +236,7 @@
   }
 
   .section-description {
-    font-size: 2rem !important;
-    line-height: 3rem !important;
+    font-size: 1.2rem !important; /* match artifact description */
+    line-height: 1.6 !important;
   }
 }

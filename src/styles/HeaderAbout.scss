@@ -4,7 +4,7 @@
 .header-about {
   background: transparent;
   min-height: 80vh;
-  padding: 40px 40px 80px 40px;
+  padding: 20px 40px 40px 40px; /* reduced vertical padding */
   position: relative;
   overflow: hidden;
 }
@@ -86,7 +86,7 @@
 }
 
 .trend-definition {
-  font-size: 1.2rem;
+  font-size: 1.6rem; /* match artifact description */
   color: white;
   line-height: 1.6;
   max-width: 400px;
@@ -97,7 +97,7 @@
 // Responsive design
 @media screen and (max-width: 1200px) {
   .header-about {
-    padding: 30px 30px 60px 30px;
+    padding: 15px 30px 30px 30px; /* reduced vertical padding */
     min-height: 70vh;
   }
 
@@ -120,7 +120,7 @@
 
 @media screen and (max-width: 900px) {
   .header-about {
-    padding: 20px 20px 40px 20px;
+    padding: 10px 20px 20px 20px; /* reduced vertical padding */
     min-height: auto;
   }
 
@@ -162,14 +162,14 @@
 
   .trend-definition {
     max-width: 100%;
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 1.5rem; /* match artifact description */
+    line-height: 1.6;
   }
 }
 
 @media screen and (max-width: 600px) {
   .header-about {
-    padding: 15px 15px 30px 15px;
+    padding: 8px 15px 15px 15px; /* reduced vertical padding */
   }
 
   .header-about-content {
@@ -201,7 +201,7 @@
   }
 
   .trend-definition {
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 1.2rem; /* match artifact description */
+    line-height: 1.6;
   }
 }
