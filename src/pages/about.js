@@ -6,6 +6,7 @@ import PhotoCarouselAbout from "../components/aboutComponents/photoCarouselAbout
 import WhoWeAreAbout from "../components/aboutComponents/whoWeAreAbout";
 import WhatWeDoAbout from "../components/aboutComponents/whatWeDoAbout";
 import ArtifactSectionAbout from "../components/aboutComponents/artifactSectionAbout";
+import "../styles/About.scss";
 
 class About extends React.Component {
   render() {

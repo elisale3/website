@@ -2,25 +2,14 @@
 
 // Header About section with two-column layout
 .header-about {
-  background: linear-gradient(135deg, #2a2a2a 0%, #1f1f1f 100%);
+  background: transparent;
   min-height: 80vh;
   padding: 40px 40px 80px 40px;
   position: relative;
   overflow: hidden;
-
-  // Subtle gradient overlay for visual depth
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(ellipse at top right, rgba(255,255,255,0.05) 0%, transparent 50%),
-                radial-gradient(ellipse at bottom left, rgba(255,255,255,0.03) 0%, transparent 50%);
-    pointer-events: none;
-  }
 }
+
+.header-about::before { display: none; }
 
 .header-about-content {
   max-width: 1400px;
@@ -87,12 +76,13 @@
 }
 
 .trend-grammar {
-  font-size: 1rem;
-  color: #aaa;
+  font-size: 1.2rem; /* match definition */
+  color: white; /* match definition */
   margin-bottom: 15px;
-  font-weight: 400;
+  font-weight: 400; /* match definition */
   text-transform: lowercase;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em; /* match definition */
+  line-height: 1.6; /* match definition */
 }
 
 .trend-definition {
@@ -155,17 +145,25 @@
     height: 300px;
   }
 
+  /* Proportional scaling relative to trend-definition 2rem */
   .trend-word {
-    font-size: 3.2rem;
+    font-size: 5.8rem; /* ~2.9x of definition */
   }
 
   .trend-pronunciation {
-    font-size: 1.1rem;
+    font-size: 2rem; /* match definition */
+  }
+
+  .trend-grammar {
+    font-size: 2rem; /* match definition */
+    line-height: 3rem; /* match definition */
+    color: white; /* match definition */
   }
 
   .trend-definition {
     max-width: 100%;
-    font-size: 1.1rem;
+    font-size: 2rem;
+    line-height: 3rem;
   }
 }
 
@@ -187,15 +185,23 @@
     height: 225px;
   }
 
+  /* Proportional scaling relative to trend-definition 2rem */
   .trend-word {
-    font-size: 2.5rem;
+    font-size: 5rem; /* 2.5x of definition */
   }
 
   .trend-pronunciation {
-    font-size: 1rem;
+    font-size: 2rem; /* match definition */
+  }
+
+  .trend-grammar {
+    font-size: 2rem; /* match definition */
+    line-height: 3rem; /* match definition */
+    color: white; /* match definition */
   }
 
   .trend-definition {
-    font-size: 1rem;
+    font-size: 2rem;
+    line-height: 3rem;
   }
 }

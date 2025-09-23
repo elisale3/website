@@ -9,3 +9,10 @@
 	text-align: center;
 	
 }
+
+/* Mobile-only top padding for the issues featured gallery carousel */
+@media screen and (max-width: $sm) {
+  .gallery-container {
+    padding-top: $spacer-2;
+  }
+}

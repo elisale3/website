@@ -77,11 +77,11 @@ class Navbar extends React.Component {
               </div>
 
               <div className='horizontal-links-container' id="navbar-pages">
-                <NavLink to="/issues">
-                  <p><a href={"../pages/issues.js"}>Issues</a></p>
-                </NavLink>
                 <NavLink to="/about">
                   <p><a href={"../pages/about.js"}>About</a></p>
+                </NavLink>
+                <NavLink to="/issues">
+                  <p><a href={"../pages/issues.js"}>Issues</a></p>
                 </NavLink>
                 <p><a className="blog" href={substack} target="_blank" rel="noopener noreferrer"> Blog
                   </a></p>
@@ -89,7 +89,7 @@ class Navbar extends React.Component {
                   <p><a href={"../pages/team.js"}>Team</a></p>
                 </NavLink>
                 <NavLink to="/contact">
-                  <p><a href={"../pages/contact.js"}> Contact Us
+                  <p><a href={"../pages/contact.js"}> Contact
                   </a></p>
                 </NavLink>
               </div>
@@ -131,11 +131,11 @@ class Navbar extends React.Component {
                 <NavLink to="/" onTouchEnd={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/home.js"}>HOME</a></h4>
                 </NavLink>
+                <NavLink to="/about" onTouchEnd={() => this.handleCloseMenu()}>
+                  <h4><a href={"../pages/about.js"}>ABOUT</a></h4>
+                </NavLink>
                 <NavLink to="/issues" onTouchEnd={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/issues.js"}>ISSUES</a></h4>
-                </NavLink>
-                <NavLink to="/about" onTouchEnd={() => this.handleCloseMenu()}>
-                <h4><a href={"../pages/about.js"}>About</a></h4>
                 </NavLink>
                 <h4><a className="blog" href={substack}> BLOG
                   </a></h4>
@@ -143,7 +143,7 @@ class Navbar extends React.Component {
                   <h4><a href={"../pages/team.js"}>TEAM</a></h4>
                 </NavLink>
                 <NavLink to="/contact" onTouchEnd={() => this.handleCloseMenu()}>
-                  <h4><a href={"../pages/contact.js"}> CONTACT US
+                  <h4><a href={"../pages/contact.js"}> CONTACT
                   </a></h4>
                 </NavLink>
                 

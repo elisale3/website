@@ -1,13 +1,11 @@
 @import "./Constants.scss";
 
-.issues-page {
-  padding-top: 10%;
+.about-page {
+  position: relative;
   min-height: 100vh;
   background: linear-gradient(135deg, #2a2a2a 0%, #1f1f1f 100%);
-  position: relative;
   overflow: hidden;
 
-  // Subtle gradient overlay for visual depth
   &::before {
     content: '';
     position: absolute;
@@ -19,14 +17,4 @@
                 radial-gradient(ellipse at bottom left, rgba(255,255,255,0.03) 0%, transparent 50%);
     pointer-events: none;
   }
-}
-
-.issues-grid-container {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.issues {
-  margin-top: $spacer-2;
 }
