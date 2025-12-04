@@ -10,7 +10,7 @@ export const teamInfo = [
     position: "Editor in Chief"
   },
   {
-    picture: () => import("../../static/team/Aidan_Sidikpramana.jpg"),
+    picture: () => import("../../static/team/Cathy_Zhou.JPG"),
     name: "Cathy Zhou",
     position: "Photographer"
   },
@@ -20,7 +20,7 @@ export const teamInfo = [
     position: "Photographer"
   },
   {
-    picture: () => import("../../static/team/Alyssa_Verheem.JPG"),
+    picture: () => import("../../static/team/Jersey_Rosetes.JPG"),
     name: "Jersey Rosetes",
     position: "Photographer"
   },
@@ -30,22 +30,22 @@ export const teamInfo = [
     position: "Photographer"
   },
   {
-    picture: () => import("../../static/team/Silvia_Lee.JPG"),
+    picture: () => import("../../static/team/Silvia_Lee1.JPG"),
     name: "Silvia Lee",
     position: "Photographer"
   },
   {
-    picture: () => import("../../static/team/Laura_Liang.jpg"),
+    picture: () => import("../../static/team/Vanessa_Mak.JPG"),
     name: "Wai Shan Vanessa Mak",
     position: "Photographer"
   },
   {
-    picture: () => import("../../static/team/Eva_Zheng.jpg"),
+    picture: () => import("../../static/team/Arta_Abdolzadeh.JPG"),
     name: "Arta Abdolzadeh",
     position: "Photographer"
   },
   {
-    picture: () => import("../../static/team/Jacobo_Cortes.JPG"),
+    picture: () => import("../../static/team/Sharon_Heo.JPG"),
     name: "Sharon Heo",
     position: "Photographer"
   },
