@@ -15,8 +15,9 @@ export const teamInfo = [
     position: "Photographer"
   },
   {
+    //Old picture
     picture: () => import("../../static/team/Isabel_Rademaker.JPG"),
-    name: "Isabel Rademaker",
+    name: "Isabel Rademaker", 
     position: "Photographer"
   },
   {
@@ -25,6 +26,7 @@ export const teamInfo = [
     position: "Photographer"
   },
   {
+    //Old picture
     picture: () => import("../../static/team/Natalie_Kong.jpg"),
     name: "Natalie Kong",
     position: "Photographer"
@@ -50,7 +52,7 @@ export const teamInfo = [
     position: "Photographer"
   },
   {
-    picture: () => import("../../static/team/Vanessa_Mak.JPG"),
+    picture: () => import("../../static/team/Muhammed_Hilman.JPG"),
     name: "Hilman Muhammad",
     position: "Photographer"
   },
@@ -70,6 +72,7 @@ export const teamInfo = [
     position: "Photographer"
   },
   {
+    //Old picture
     picture: () => import("../../static/team/Vanessa_Mak.JPG"),
     name: "Roxanne Mayali",
     position: "Photographer"
