@@ -99,14 +99,9 @@ export const teamInfo = [
     name: "Sydney McDonald",
     position: "Writer"
   },
-    {
-    picture: () => import("../../static/team/Jon_Picinich.jpg"),
-    name: "Jon Picinich",
-    position: "Graphic Designer"
-  },
-    {
-    picture: () => import("../../static/team/Renee_Agatep.jpg"),
-    name: "Renee Agatep",
+  {
+    picture: () => import("../../static/team/Ashley_Nguyen.jpg"),
+    name: "Ashley Nguyen",
     position: "Graphic Designer"
   },
   {
@@ -115,48 +110,38 @@ export const teamInfo = [
     position: "Graphic Designer"
   },
   {
+    picture: () => import("../../static/team/Jamie_Lim.JPG"),
+    name: "Jamie Lim",
+    position: "Graphic Designer"
+  },
+  {
     picture: () => import("../../static/team/Jasmine_Nguyen.JPG"),
     name: "Jasmine Nguyen", 
     position: "Graphic Designer"
   },
   {
-    picture: () => import("../../static/team/Sravya_Nimmagadda.JPG"),
-    name: "Sravya Nimmagadda",
+    picture: () => import("../../static/team/Renee_Agatep.jpg"),
+    name: "Renee Agatep",
+    position: "Graphic Designer"
+  },
+  {
+    picture: () => import("../../static/team/Jon_Picinich.jpg"),
+    name: "Jon Picinich",
     position: "Graphic Designer"
   },
   {
     picture: () => import("../../static/team/Krista_Lopez.jpg"),
-    name: "Amber Chi",
+    name: "Krista Lopez",
     position: "Graphic Designer"
   },
   {
     picture: () => import("../../static/team/Lauren_Cho.JPG"),
-    name: "Luke Shin",
-    position: "Graphic Designer"
-  },
-    {
-    picture: () => import("../../static/team/Lauren_Cho.JPG"),
-    name: "Kaleb Payba",
+    name: "Lauren Cho",
     position: "Graphic Designer"
   },
   {
-    picture: () => import("../../static/team/Lauren_Cho.JPG"),
-    name: "Amanda Wu",
-    position: "Graphic Designer"
-  },
-  {
-    picture: () => import("../../static/team/Lauren_Cho.JPG"),
-    name: "Sophie Huynh",
-    position: "Graphic Designer"
-  },
-  {
-    picture: () => import("../../static/team/Lauren_Cho.JPG"),
-    name: "Celia Monarch",
-    position: "Graphic Designer"
-  },
-  {
-    picture: () => import("../../static/team/Lauren_Cho.JPG"),
-    name: "Sydney Tsay",
+    picture: () => import("../../static/team/Sravya_Nimmagadda.JPG"),
+    name: "Sravya Nimmagadda",
     position: "Graphic Designer"
   },
   {
