@@ -1,12 +1,12 @@
 export const teamInfo = [
   {
-    picture: () => import("../../static/team/Alexandra_Citra.jpg"),
-    name: "Alexandra Citra",
+    picture: () => import("../../static/team/Dan_Nepomuceno.CR3"),
+    name: "Dan Nepomuceno",
     position: "Editor in Chief"
   },
   {
-    picture: () => import("../../static/team/Leanna_Gower.jpg"),
-    name: "Leanna Gower",
+    picture: () => import("../../static/team/Maggie_Blaisdell.CR3"),
+    name: "Maggie Blaisdell",
     position: "Editor in Chief"
   },
   {
