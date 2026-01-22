@@ -100,48 +100,33 @@ export const teamInfo = [
     position: "Writer"
   },
   {
-    picture: () => import("../../static/team/Ashley_Nguyen.jpg"),
-    name: "Ashley Nguyen",
-    position: "Graphic Designer"
-  },
-  {
-    picture: () => import("../../static/team/Beatriz_Chen.jpeg"),
-    name: "Beatriz Chen",
-    position: "Graphic Designer"
-  },
-  {
-    picture: () => import("../../static/team/Jamie_Lim.JPG"),
-    name: "Jamie Lim",
-    position: "Graphic Designer"
-  },
-  {
-    picture: () => import("../../static/team/Jasmine_Nguyen.JPG"),
-    name: "Jasmine Nguyen", 
-    position: "Graphic Designer"
-  },
-  {
-    picture: () => import("../../static/team/Renee_Agatep.jpg"),
-    name: "Renee Agatep",
-    position: "Graphic Designer"
-  },
-  {
     picture: () => import("../../static/team/Jon_Picinich.jpg"),
     name: "Jon Picinich",
     position: "Graphic Designer"
   },
   {
-    picture: () => import("../../static/team/Krista_Lopez.jpg"),
-    name: "Krista Lopez",
+    picture: () => import("../../static/team/Sophie_Huynh.jpg"),
+    name: "Sophie Huynh",
     position: "Graphic Designer"
   },
   {
-    picture: () => import("../../static/team/Lauren_Cho.JPG"),
-    name: "Lauren Cho",
+    picture: () => import("../../static/team/Kaleb_Payba.jpg"),
+    name: "Kaleb Payba",
     position: "Graphic Designer"
   },
   {
-    picture: () => import("../../static/team/Sravya_Nimmagadda.JPG"),
-    name: "Sravya Nimmagadda",
+    picture: () => import("../../static/team/Jasmine_Nguyen.jpg"),
+    name: "Jasmine Nguyen", 
+    position: "Graphic Designer"
+  },
+  {
+    picture: () => import("../../static/team/Celia_Monarch.jpg"),
+    name: "Celia Monarch",
+    position: "Graphic Designer"
+  },
+  {
+    picture: () => import("../../static/team/Amber_Chi.jpg"),
+    name: "Amber Chi",
     position: "Graphic Designer"
   },
   {
