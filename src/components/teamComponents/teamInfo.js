@@ -171,7 +171,7 @@ export const teamInfo = [
     position: "External"
   },
   {
-    picture: () => import("../../static/team/Catherine_Hoang.jpg"),
+    picture: () => import("../../static/team/Catherine_Hoang.JPG"),
     name: "Catherine Hoang",
     position: "External"
   },
