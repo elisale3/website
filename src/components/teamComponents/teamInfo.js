@@ -135,28 +135,38 @@ export const teamInfo = [
     position: "External"
   },
   {
-    picture: () => import("../../static/team/Andrew_Alvarado.JPG"),
-    name: "Andrew Alvarado",
+    picture: () => import("../../static/team/Viviana_Espino.jpeg"),
+    name: "Viviana Espino",
     position: "External"
   },
   {
-    picture: () => import("../../static/team/Anica_Xie.JPG"),
-    name: "Anica Xie",
+    picture: () => import("../../static/team/Anne_Vuong.jpg"),
+    name: "Anne Vuong",
     position: "External"
   },
   {
-    picture: () => import("../../static/team/Ashley_djunaedi.JPG"),
-    name: "Ashley Djunaedi",
-    position: "External"
-  },
-  {
-    picture: () => import("../../static/team/Dani_Rodriguez_Arzate.jpg"),
+    picture: () => import("../../static/team/Dani_Rodriguez_Arzate.jpeg"),
     name: "Dani Rodriguez Arzate",
     position: "External"
   },
   {
-    picture: () => import("../../static/team/Jasmine_Lauresta.JPG"),
-    name: "Jasmine Lauresta",
+    picture: () => import("../../static/team/Catherine_Hoang.jpg"),
+    name: "Catherine Hoang",
+    position: "External"
+  },
+  {
+    picture: () => import("../../static/team/Jenny_Cannata.jpeg"),
+    name: "Jenny Cannata",
+    position: "External"
+  },
+  {
+    picture: () => import("../../static/team/Josephine_Jukita.jpg"),
+    name: "Josephine Jukita",
+    position: "External"
+  },
+  {
+    picture: () => import("../../static/team/Leah_Jenkins.JPG"),
+    name: "Kshitij Uddagatti",
     position: "External"
   },
   {
@@ -165,13 +175,43 @@ export const teamInfo = [
     position: "External"
   },
   {
-    picture: () => import("../../static/team/Rita_Xiong.JPG"),
-    name: "Rita Xiong",
+    picture: () => import("../../static/team/Leanna_Gower.jpg"),
+    name: "Leanna Gower",
     position: "External"
   },
   {
-    picture: () => import("../../static/team/Viviana_Espino.jpeg"),
-    name: "Viviana Espino",
+    picture: () => import("../../static/team/Lila_Ciambriello.jpg"),
+    name: "Lila Ciambriello",
+    position: "External"
+  },
+  {
+    picture: () => import("../../static/team/Lillian_Ta.jpg"),
+    name: "Lillian Ta",
+    position: "External"
+  },
+  {
+    picture: () => import("../../static/team/Maggie_Jordan.jpg"),
+    name: "Maggie Jordan",
+    position: "External"
+  },
+  {
+    picture: () => import("../../static/team/Niyati_Patel.jpg"),
+    name: "Niyati Patel",
+    position: "External"
+  },
+  {
+    picture: () => import("../../static/team/Priscila_Ran.jpg"),
+    name: "Priscila Ran",
+    position: "External"
+  },
+  {
+    picture: () => import("../../static/team/Sophie_Dornic.jpg"),
+    name: "Sophie Dornic",
+    position: "External"
+  },
+  {
+    picture: () => import("../../static/team/Zella_Lucas.jpg"),
+    name: "Zella Lucas",
     position: "External"
   },
   {
