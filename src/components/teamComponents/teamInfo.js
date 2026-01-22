@@ -91,7 +91,7 @@ export const teamInfo = [
     position: "Writer",
   },
   {
-    picture: () => import("../../static/team/Camille_de_la_Cruz.JPG"),
+    picture: () => import("../../static/team/Camille_de_la_Cruz.jpeg"),
     name: "Camille de la Cruz",
     position: "Writer"
   },
