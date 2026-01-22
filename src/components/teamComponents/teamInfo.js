@@ -136,7 +136,7 @@ export const teamInfo = [
     position: "Graphic Designer"
   },
   {
-    picture: () => import("../../static/team/Jasmine_Nguyen.jpg"),
+    picture: () => import("../../static/team/Jasmine_Nguyen.JPG"),
     name: "Jasmine Nguyen", 
     position: "Graphic Designer"
   },
