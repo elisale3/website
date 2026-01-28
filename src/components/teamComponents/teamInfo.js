@@ -373,7 +373,7 @@ export const teamInfo = [
   },
   {
     //change
-    picture: () => import("../../static/team/Jay_Gao.JPG"),
+    picture: () => import("../../static/team/Brina_Wang.jpg"),
     name: "Brina Wang",
     position: "Web Developer"
   },
