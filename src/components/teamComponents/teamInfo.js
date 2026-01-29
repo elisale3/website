@@ -76,6 +76,11 @@ export const teamInfo = [
     position: "Photographer"
   },
   {
+    picture: () => import("../../static/team/Sophia_Regier.jpeg"),
+    name: "Sophia Regier",
+    position: "Writer"
+  },
+  {
     picture: () => import("../../static/team/Maikle_Low.jpeg"),
     name: "Maikle Low",
     position: "Writer",
@@ -93,11 +98,6 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Camille_de_la_Cruz.jpeg"),
     name: "Camille de la Cruz",
-    position: "Writer"
-  },
-  {
-    picture: () => import("../../static/team/Sophia_Regier.jpeg"),
-    name: "Sophia Regier",
     position: "Writer"
   },
   {
@@ -151,23 +151,23 @@ export const teamInfo = [
     position: "Graphic Designer"
   },
   {
-    picture: () => import("../../static/team/Ryan_Freudiger.jpg"),
-    name: "Ryan Freudiger",
-    position: "External"
-  },
-  {
     picture: () => import("../../static/team/Viviana_Espino.jpeg"),
     name: "Viviana Espino",
     position: "External"
   },
   {
-    picture: () => import("../../static/team/Anne_Vuong.jpg"),
-    name: "Anne Vuong",
+    picture: () => import("../../static/team/Dani_Rodriguez_Arzate.jpeg"),
+    name: "Dani Rodriguez Arzate",
     position: "External"
   },
   {
-    picture: () => import("../../static/team/Dani_Rodriguez_Arzate.jpeg"),
-    name: "Dani Rodriguez Arzate",
+    picture: () => import("../../static/team/Ryan_Freudiger.jpg"),
+    name: "Ryan Freudiger",
+    position: "External"
+  },
+  {
+    picture: () => import("../../static/team/Anne_Vuong.jpg"),
+    name: "Anne Vuong",
     position: "External"
   },
   {
