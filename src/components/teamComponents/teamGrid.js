@@ -48,7 +48,7 @@ class TeamGrid extends React.Component {
             <h2>TREND Team</h2>
           </Row>
           <Row className="top-margin-subsection">
-            <h3>2024 - 2025</h3>
+            <h3>2025 - 2026</h3>
           </Row>
 
           <div className="team">
