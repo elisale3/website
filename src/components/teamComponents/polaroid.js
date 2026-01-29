@@ -3,7 +3,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "../../styles/polaroid.scss";
 
-const Polaroid = ({ picture, name, position, pronouns, about }) => {
+const Polaroid = ({ picture, name, position, pronouns, major, about }) => {
   const [imageSrc, setImageSrc] = useState(null);
   const [hovered, setHovered] = useState(false);
 
