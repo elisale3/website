@@ -32,7 +32,6 @@ class TeamGrid extends React.Component {
                 <Polaroid
                   picture={teamMember.picture}
                   name={teamMember.name}
-                  //position={teamMember.position}
                   pronouns={teamMember.pronouns}
                   about={teamMember.about}
                 />
