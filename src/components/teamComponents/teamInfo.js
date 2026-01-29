@@ -301,8 +301,7 @@ export const teamInfo = [
     position: "Stylist"
   },
   {
-    //change
-    picture: () => import("../../static/team/Aimi_Kim.jpeg"),
+    picture: () => import("../../static/team/Noah_Pope.jpeg"),
     name: "John Noah Pope",
     position: "Stylist",
   },
