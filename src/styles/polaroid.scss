@@ -18,6 +18,7 @@
   padding-top: 1rem;
   padding-right: 1rem;
   padding-left: 1rem;
+  position: relative;
 }
 
 .polaroid-info {
@@ -29,4 +30,41 @@
 
 .polaroid-position {
   padding-top: $spacer-1;
+}
+//////////////////
+.polaroid-hover-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.82);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 12px;
+
+  opacity: 0;
+  animation: fadeIn 0.25s ease forwards;
+  border-radius: 2px;
+}
+
+.hover-pronouns {
+  font-style: italic;
+  margin: 4px 0;
+}
+
+.hover-about {
+  font-size: 0.85rem;
+  line-height: 1.35;
+  margin-top: 6px;
+}
+
+/* Smooth fade animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }

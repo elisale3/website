@@ -2,7 +2,9 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Dan_Nepomuceno.JPEG"),
     name: "Dan Nepomuceno",
-    position: "Editor in Chief"
+    position: "Editor in Chief",
+    pronouns: "he/him",
+    about: "Besides serving as Editor-in-Chief, I am an independent fashion designer whose work explores narratives related to personal identity and culture, using fashion as a way of storytelling. I enjoy learning other languages, cooking, and reading!"
   },
   {
     picture: () => import("../../static/team/Maggie_Blaisdell.jpg"),
