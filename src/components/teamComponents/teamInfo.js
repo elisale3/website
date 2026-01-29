@@ -319,7 +319,7 @@ export const teamInfo = [
   },
   {
     //change
-    picture: () => import("../../static/team/blank.jpeg"),
+    picture: () => import("../../static/team/Talia_Thessen.jpeg"),
     name: "Talia Thessen",
     position: "Stylist"
   },
@@ -346,7 +346,7 @@ export const teamInfo = [
   },
   {
     //change
-    picture: () => import("../../static/team/blank.jpeg"),
+    picture: () => import("../../static/team/Katie_Chang.jpeg"),
     name: "Katie Chang",
     position: "Stylist"
   },
