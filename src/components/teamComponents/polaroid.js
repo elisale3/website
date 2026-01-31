@@ -48,11 +48,11 @@ const Polaroid = ({ picture, name, position, pronouns, major, about, portfolio }
               )}
 
               {about && (
-                <p className="hover-about">{about}</p>
+                <p className="hover-about">About: {about}</p>
               )}
 
               {portfolio && (
-                <p className="hover-about">{portfolio}</p>
+                <p className="hover-about">Portfolio: {portfolio}</p>
               )}
             </div>
           )}
