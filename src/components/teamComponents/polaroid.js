@@ -37,8 +37,9 @@ const Polaroid = ({ picture, name, position, pronouns, major, about, portfolio }
           {/* 🔥 Hover Overlay */}
           {hovered && (pronouns || major || about || portfolio) && (
             <div className="polaroid-hover-overlay">
-              <h5>{name}</h5>
-
+              
+              {/*<h5>{name}</h5>*/}
+              
               {pronouns && (
                 <p className="hover-pronouns">Pronouns: {pronouns}</p>
               )}
