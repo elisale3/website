@@ -41,9 +41,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 
-  text-align: center;
+  text-align: left;
   padding: 12px;
 
   opacity: 0;
