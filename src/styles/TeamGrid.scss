@@ -1,26 +1,26 @@
 @import "./Constants.scss";
 
 .team-grid-section {
-  margin-left: $spacer-3;
-  margin-right: $spacer-3;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .top-margin-section {
-  padding-top: $spacer-2;
-  padding-bottom: $spacer-1;
+
+  padding-left: 0;
+  padding-right: 0;
   h2 {
     color: $color-white;
-    padding-left: 0;
+    margin: 0;
   }
-  padding-left: $spacer-1;
-  padding-right: $spacer-1;
 }
 
 .top-margin-subsection {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0;
+  padding-right: 0;
   h3 {
     color: $color-white;
+    margin: 0;
   }
 }
 
@@ -33,3 +33,35 @@
   padding: 0;
   overflow: hidden;
 }
+
+.team-grid-section {
+  font-family: "Alte Haas Grotesk Regular";
+  margin-left: 0;
+  margin-right: 0;
+}
+
+// Main title (TREND Team)
+.team-grid-section h2 {
+  font-size: clamp(3rem, 5vw, 4.2rem);
+  line-height: 1.05;
+  font-weight: 600;
+  margin: 0;
+}
+
+// Year (2024–2025 / 2025–2026)
+.team-grid-section h3 {
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+  line-height: 1.2;
+  font-weight: 500;
+  opacity: 0.9;
+  margin: 0;
+}
+
+// Section headers (Editors in Chief, Photography, etc.)
+.team-grid-section h4 {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 0;
+}
+

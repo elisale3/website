@@ -21,7 +21,9 @@ class TeamGrid extends React.Component {
   renderSection = (title, position) => (
     <>
       <Row className="top-margin-section">
-        <h4>{title}</h4>
+        <Col xs={12}>
+          <h4 className="team-section-title">{title}</h4>
+        </Col>
       </Row>
       <Row>
         {teamInfo
@@ -48,12 +50,7 @@ class TeamGrid extends React.Component {
     return (
       <div className="team-grid-section">
         <Container className="team-grid-container">
-          <Row className="top-margin-section">
-            <h2>TREND Team</h2>
-          </Row>
-          <Row className="top-margin-subsection">
-            <h3>2025 - 2026</h3>
-          </Row>
+
 
           <div className="team">
             {this.renderSection("Editors in Chief", "Editor in Chief")}

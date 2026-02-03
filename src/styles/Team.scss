@@ -1,23 +1,42 @@
 @import "./Constants.scss";
 
 .team-page {
-  height: auto;
   padding-top: 10%;
   min-height: 100vh;
   background: linear-gradient(135deg, #2a2a2a 0%, #1f1f1f 100%);
   position: relative;
   overflow: hidden;
+}
 
-  // Subtle gradient overlay for visual depth
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(ellipse at top right, rgba(255,255,255,0.05) 0%, transparent 50%),
-                radial-gradient(ellipse at bottom left, rgba(255,255,255,0.03) 0%, transparent 50%);
-    pointer-events: none;
-  }
+/* NEW: shared horizontal alignment container */
+.team-content {
+  margin-left: $spacer-3;
+  margin-right: $spacer-3;
+}
+.team-header {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  gap: $spacer-1;
+  margin-top: $spacer-3;
+  margin-bottom: $spacer-1;
+}
+
+.team-title,
+.team-year,
+.team-section-title {
+  margin-left: 0;
+}
+
+.team-page {
+  // Match Issues feel
+  font-family: "Alte Haas Grotesk Regular";
+  color: $color-white;
+}
+
+.team-content {
+  margin-left: $spacer-3;
+  margin-right: $spacer-3;
+  position: relative; // keeps it above background ::before overlay
+  z-index: 1;
 }

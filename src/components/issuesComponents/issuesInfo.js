@@ -2,20 +2,41 @@ export const issuesInfo = [
   { 
     picture: require("../../static/issues/fervor.jpg"),
     title: "Fervor",
-    link: "https://issuu.com/trenducsd/docs/fervor", // Placeholder link - update when live
+    link: "https://heyzine.com/flip-book/b50653e2ad.html", // Placeholder link - update when live
     description: "In a culture shaped by immediacy, automation, and endless consumption, it is tempting to slip into apathy. It's easy to disengage, to let the world pass through us without anchoring to it. FERVOR is our refusal. It is our commitment to doing the difficult, messy, vibrant work of creating, connecting, and showing up.",
   },
   { 
     picture: require("../../static/issues/pandora_box.jpg"),
     title: "Pandora's Box",
-    link: "https://issuu.com/trenducsd/docs/pandora_box", // Placeholder link - update when live
+    link: "https://heyzine.com/flip-book/ab37d78b18.html", // Placeholder link - update when live
     description: "Mini zine issue",
   },
   { 
     picture: require("../../static/issues/Diorama_Master.jpg"),
     title: "Diorama",
-    link: "https://issuu.com/trenducsd/docs/diorama", // Placeholder link - update when live
+    link: "https://heyzine.com/flip-book/15a15f7e18.html", // Placeholder link - update when live
     description: "Last year, we released METAMORPHOSIS, delving into growth and revolution, and then OUT OF BOUNDS, where we celebrated what it means to be different and push boundaries. Throughout these explorations, we kept coming back to an idea: Movement and transformation are likely best leaning on the edge. They lie not in resolution but in process. With this issue, we explore DIORAMA—a realm of intersecting narratives and liminal spaces, those in-betweens that lie at the heart of our existence.",
+  },
+  { 
+    picture: require("../../static/issues/An_Homage.jpg"),
+    title: "An Homage to: ",
+    link: "https://heyzine.com/flip-book/15a15f7e18.html", // Placeholder link - update when live
+    description: "Over the summer, TREND members got together to create our very first summer zine, paying homage to the work of 3 designers\n\n" +
+"- Martin Margiela (Dan Nepomuceno, Silvia Lee, Krista Vener, Ahliyah Luna, Preeya Govil)\n" +
+
+"- Karl Lagerfeld (Preeya Govil, Venice Poggi)\n" +
+
+"- Iris Van Herpen (Venice Poggi, Viviana Espino, Renee Agatep, Sophia Reiger, Sydney McDonald)\n\n" +
+
+"TREND has always strived to welcome a unique group of artists, each with their own styles, expressions, and interpretations of what “fashion”, as a whole, really is. \n\n" +
+
+"In this special inaugural issue, not only did we desire to understand and reconnect with the artistic impact of these designers, but we sought to take apart their work and create our own version of an artistic identity. \n\n" +
+
+"With each curated look, shoot, writing piece, and spread, we developed a greater understanding of both our craft and the influences that inspired it. \n\n" +
+
+"However, as much as we may look up to these designers and their impact on our own art, we cannot view them as immune to criticism. \n\n" +
+
+"“Our idols, just like ourselves, are imperfect.”",
   },
   {
     picture: require("../../static/issues/out-of-bounds.jpg"),
