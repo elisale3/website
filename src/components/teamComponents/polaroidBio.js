@@ -29,7 +29,9 @@ class PolaroidBio extends React.Component {
               <div className="bio-content">
                   <div className="bio-inner-frame" justify="center">
                       <h3>{this.props.name}</h3>
-                      <LazyLoadImage className="bio-image" src={this.props.picture} alt={this.props.name} />
+                      <LazyLoadImage className="bio-image" src={this.props.picture} alt={this.props.name} 
+                      loading ="lazy"
+                      decoding ="async"/>
                       <p>{this.props.bio}</p>
                   </div>
                   <div className="bio-side" md={2}>

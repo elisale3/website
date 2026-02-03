@@ -62,17 +62,25 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
 
   text-align: left;
   padding: 12px;
 
   opacity: 0;
-  animation: fadeIn 0.25s ease forwards;
-  border-radius: 2px;
-}
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  will-change: opacity;
 
+  border-radius: 2px;
+  overflow-y: auto;
+  max-height: 100%;
+}
+.polaroid-container:hover .polaroid-hover-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
 .hover-pronouns {
   font-style: italic;
   margin: 4px 0;

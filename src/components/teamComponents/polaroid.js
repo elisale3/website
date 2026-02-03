@@ -5,7 +5,6 @@ import "../../styles/polaroid.scss";
 
 const Polaroid = ({ picture, name, position, pronouns, major, about, portfolio }) => {
   const [imageSrc, setImageSrc] = useState(null);
-  const [hovered, setHovered] = useState(false);
 
   useEffect(() => {
     if (typeof picture === "function") {
@@ -18,8 +17,6 @@ const Polaroid = ({ picture, name, position, pronouns, major, about, portfolio }
   return (
     <div
       className="polaroid-container"
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
     >
       <div className="polaroid-frame">
         <h6 className="polaroid-position">{position}</h6>
@@ -31,11 +28,16 @@ const Polaroid = ({ picture, name, position, pronouns, major, about, portfolio }
               src={imageSrc}
               alt={name}
               effect="blur"
+              width ="300"
+              height ="400"
+              decoding ="async"
+              fetchPriority="low"
             />
           )}
 
-          {/* 🔥 Hover Overlay */}
-          {hovered && (pronouns || major || about || portfolio) && (
+          {/*  Hover Overlay
+          Angelo Note: Hi I changed this a little bit just to improve loading pls dont hate me */}
+          {(pronouns || major || about || portfolio) && (
             <div className="polaroid-hover-overlay">
               
               {/*<h5>{name}</h5>*/}
