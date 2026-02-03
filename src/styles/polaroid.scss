@@ -1,6 +1,7 @@
 @import "./Constants.scss";
 
 .polaroid-container {
+  width: 100%;
   margin-bottom: $spacer-3;
 }
 
@@ -12,6 +13,23 @@
 
 .polaroid-image {
   width: 100%;
+  height: 100%;
+  object-fit: cover;    // crop to fill, no stretching
+  display: block;
+}
+
+.image-frame .lazy-load-image-background {
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+}
+
+.image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;          
+  object-position: center;
+  display: block;
 }
 
 .image-frame {
@@ -20,6 +38,9 @@
   padding-left: 1rem;
   padding-bottom: 1rem;
   position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4; 
+  overflow: hidden;
 }
 
 .polaroid-info {

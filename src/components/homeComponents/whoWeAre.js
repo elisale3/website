@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/WhoWeAre.scss";
-import AllStaffPic from "../../static/who-are-we-imgs/AllStaffPic.JPG";
-import ExecPic from "../../static/who-are-we-imgs/ExecPic.JPG";
+import AllStaffPic from "../../static/who-are-we-imgs/ExecPic.JPG";
+import ExecPic from "../../static/who-are-we-imgs/AllStaffPic.JPG";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const WhoWeAre = () => {

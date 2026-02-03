@@ -23,11 +23,10 @@ class FilmStrip extends React.Component {
       require("../../static/film-strip/film-strip-3.jpg"),
       require("../../static/film-strip/film-strip-4.jpg"),
       require("../../static/film-strip/film-strip-5.jpg"),
-      require("../../static/film-strip/film-strip-6.jpg"),
-      require("../../static/film-strip/film-strip-7.jpg"),
+      require("../../static/film-strip/film-strip-6.jpeg"),
+      require("../../static/film-strip/film-strip-7.jpeg"),
       require("../../static/film-strip/film-strip-8.jpg"),
       require("../../static/film-strip/film-strip-9.jpg"),
-      require("../../static/film-strip/film-strip-10.jpg"),
     ];
 
     const filmStripImages = images.map((img, index) => (
