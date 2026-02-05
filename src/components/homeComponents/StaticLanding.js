@@ -25,7 +25,7 @@ function getTimeLeft(targetMs) {
 
 export default function StaticLanding() {
   const launchDate = useMemo(
-    () => new Date("2026-02-15T00:00:00").getTime(),
+    () => new Date("2026-02-13T00:00:00").getTime(),
     []
   );
   const [timeLeft, setTimeLeft] = useState(() => getTimeLeft(launchDate));
@@ -112,7 +112,7 @@ export default function StaticLanding() {
           </div>
 
           <div className="timer-section__footer">
-            time until February 15, 2026, at 12:00 AM
+            time until February 13, 2026, at 12:00 AM
           </div>
           <button
             className="timer-section__cta"
@@ -133,6 +133,7 @@ export default function StaticLanding() {
         <div className="statement-section__overlay">
           <h2 className="statement-section__header">
             A Statement from Dan Nepomuceno
+            <span className="statement-role">(Co-Editor in Chief)</span>
           </h2>
 
           <div className="statement-section__body">

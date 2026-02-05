@@ -357,7 +357,13 @@
 .statement-section__body p:last-child {
   margin-bottom: 0;
 }
-
+.statement-role {
+  font-weight: 400;
+  font-size: 0.75em;
+  opacity: 0.75;
+  margin-left: 6px;
+  white-space: nowrap;
+}
 /* Desktop spacing */
 @media (min-width: 900px) {
   .statement-section__overlay {
