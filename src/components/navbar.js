@@ -68,14 +68,41 @@ class Navbar extends React.Component {
           {windowWidth > 800 ? (
             <div className='horizontal-content-container'>
               <div className='navbar-logo-container'>
-                <NavLink to="/">
-                  <a href={"../pages/home.js"}>
+                <NavLink to="/" className='navbar-logo-link'>
                     <h1>TREND</h1>
                     {/* <img src="src/static/trend_logo_2024.png" alt = "TREND"></img> */}
+                </NavLink>
+              </div>
+              <div className="horizontal-links-container" id="navbar-pages">
+                <NavLink to="/about">
+                  <p>About</p>
+                </NavLink>
+
+                <NavLink to="/issues">
+                  <p>Issues</p>
+                </NavLink>
+
+                <p>
+                  <a
+                    className="blog"
+                    href={substack}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Blog
                   </a>
+                </p>
+
+                <NavLink to="/team">
+                  <p>Team</p>
+                </NavLink>
+
+                <NavLink to="/contact">
+                  <p>Contact</p>
                 </NavLink>
               </div>
 
+{/*
               <div className='horizontal-links-container' id="navbar-pages">
                 <NavLink to="/about">
                   <p><a href={"../pages/about.js"}>About</a></p>
@@ -93,7 +120,7 @@ class Navbar extends React.Component {
                   </a></p>
                 </NavLink>
               </div>
-              
+*/}              
               {/* <div className='navbar-logo-container'>
                 <NavLink to="/">
                   <a href={"../pages/home.js"}>
@@ -129,22 +156,21 @@ class Navbar extends React.Component {
             <div className="side-panel">
               <Menu id='burger-menu' isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
                 <NavLink to="/" onTouchEnd={() => this.handleCloseMenu()}>
-                  <h4><a href={"../pages/home.js"}>HOME</a></h4>
+                  <h4>HOME</h4>
                 </NavLink>
                 <NavLink to="/about" onTouchEnd={() => this.handleCloseMenu()}>
-                  <h4><a href={"../pages/about.js"}>ABOUT</a></h4>
+                  <h4>ABOUT</h4>
                 </NavLink>
                 <NavLink to="/issues" onTouchEnd={() => this.handleCloseMenu()}>
-                  <h4><a href={"../pages/issues.js"}>ISSUES</a></h4>
+                  <h4>ISSUES</h4>
                 </NavLink>
                 <h4><a className="blog" href={substack}> BLOG
                   </a></h4>
                 <NavLink to="/team" onTouchEnd={() => this.handleCloseMenu()}>
-                  <h4><a href={"../pages/team.js"}>TEAM</a></h4>
+                  <h4>TEAM</h4>
                 </NavLink>
                 <NavLink to="/contact" onTouchEnd={() => this.handleCloseMenu()}>
-                  <h4><a href={"../pages/contact.js"}> CONTACT
-                  </a></h4>
+                  <h4>CONTACT</h4>
                 </NavLink>
                 
                 <div className="vertical-links-container">
