@@ -3,7 +3,7 @@
 import React from "react";
 import { BsInstagram, BsFacebook, BsEnvelope } from "react-icons/bs";
 import { SiSubstack } from "react-icons/si";
-import contactPlaceholder2 from "../../static/contact-placeholders/contact-placeholder-2.png";
+import contactPlaceholder2 from "../../static/contact-placeholders/contact-placeholder-1.png";
 import '../../styles/Contact.scss';
 
 class SocialLinks extends React.Component {
