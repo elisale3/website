@@ -41,7 +41,7 @@ export const issuesInfo = [
   {
     picture: require("../../static/issues/out-of-bounds.jpg"),
     title: "Out of Bounds",
-    link: "https://issuu.com/trenducsd/docs/outofbounds",
+    link: "https://heyzine.com/flip-book/e3be461c1f.html",
     description: "With \"Out of Bounds,\" we have reached our final potential: we know who we are, we aren't afraid to speak out and disrupt the norm. Out of Bounds captures what it means to be different, to push the boundaries, and break out of them entirely. People who do so are often ostracized for their differences—and yet, they forge on anyway and revolutionize culture as we know it. Out of Bounds honors the artist's past and celebrates the independent spirit, particularly how it relates to our generation.",
   },
   {
