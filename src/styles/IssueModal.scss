@@ -1,213 +1,139 @@
-@import "./Constants.scss";
-
+/* Overlay */
 .issue-modal-overlay {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, #2a2a2a 0%, #1f1f1f 100%);
+  inset: 0;
+
+  z-index: 99999;
+
+  background: rgba(0, 0, 0, 0.6);
+
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 9999; // Higher than navbar
-  padding: $spacer-2;
-  overflow: hidden; // Prevent page scrolling
-  
-  // Subtle gradient overlay for visual depth
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(ellipse at top right, rgba(255,255,255,0.05) 0%, transparent 50%),
-                radial-gradient(ellipse at bottom left, rgba(255,255,255,0.03) 0%, transparent 50%);
-    pointer-events: none;
-  }
+
+  padding: 16px;
+  padding-top: calc(16px + env(safe-area-inset-top));
 }
 
+/* Modal shell */
 .issue-modal-content {
-  background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 0;
-  border-radius: 12px;
-  max-width: 90%;
-  max-height: 90%;
-  overflow-y: auto;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  
-  @media (min-width: 768px) {
-    flex-direction: row;
-    max-width: 80%;
-    max-height: 80%;
-  }
-  
-  @media (max-width: 767px) {
-    max-width: 95%;
-    max-height: 90%;
-    overflow-y: auto;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+  width: min(1100px, 92vw);
+  max-height: calc(100dvh - 32px - env(safe-area-inset-top));
+
+  background: #5f5f5f;
+  border-radius: 20px;
+  padding: 2rem;
+
+  overflow: hidden; // critical
 }
 
+/* Close button */
 .issue-modal-close {
   position: absolute;
-  top: $spacer-2;
-  right: $spacer-2;
-  background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  font-size: 2rem;
+  top: 1.25rem;
+  right: 1.25rem;
+
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
   cursor: pointer;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1001;
-  color: white;
-  transition: all 0.3s ease;
-  
-  &:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    transform: scale(1.1);
-  }
+  z-index: 5;
 }
 
+/* Image */
 .issue-modal-image-container {
-  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
-  min-height: 200px;
-  padding: $spacer-2;
-  
-  @media (max-width: 767px) {
-    min-height: 150px;
-    border-right: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding: $spacer-1;
-  }
-}
-
-.issue-modal-content-container {
-  flex: 1;
-  padding: $spacer-3;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: rgba(255, 255, 255, 0.02);
-  
-  @media (max-width: 767px) {
-    padding: $spacer-2;
-    justify-content: flex-start;
-    min-height: 0; // Allow flex shrinking
-  }
-}
-
-.issue-modal-title {
-  margin-bottom: $spacer-2;
-  font-family: "Alte Haas Grotesk Regular";
-  font-size: 2.2rem;
-  font-weight: bold;
-  color: white;
-  line-height: 1.2;
-  
-  @media (max-width: 767px) {
-    font-size: 1.5rem;
-    margin-bottom: $spacer-1;
-  }
+  overflow: hidden;
 }
 
 .issue-modal-image {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
-  object-position: center;
-  border-radius: 8px;
-  
-  @media (max-width: 767px) {
-    width: 100%;
-    height: auto;
-    max-height: 200px;
-    object-fit: contain;
-  }
+  border-radius: 12px;
 }
 
-.issue-modal-description {
-  font-family: "Alte Haas Grotesk Regular";
-  font-size: 1.3rem;
-  line-height: 1.7;
-  color: rgba(255, 255, 255, 0.85);
-  text-align: left;
-  flex-grow: 1;
-  margin-bottom: $spacer-2;
-  
-  @media (max-width: 767px) {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: $spacer-1;
-  }
-}
-
-.issue-modal-button {
-  font-family: "Alte Haas Grotesk Regular";
-  font-size: 18px;
-  font-weight: 50 !important;
-  padding: 1rem 0rem;
-  margin-top: auto;
-  border-radius: 1rem;
-  border: 0.5px solid rgba(255, 255, 255, 0.8);
-  background-color: transparent;
-  color: rgba(255, 255, 255, 0.9);
-  transition: all 0.5s ease;
-  width: auto;
-  max-width: 148px;
-  padding-left: 12px;
-  padding-right: 14px;
-  cursor: pointer;
+/* Right column */
+.issue-modal-content-container {
   display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden; // prevents entire column from scrolling
+}
+
+/* Title */
+.issue-modal-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  flex: 0 0 auto;
+}
+
+/* Scrollable body */
+.issue-modal-body {
+  flex: 1 1 auto;
+  min-height: 0; // REQUIRED for flex scroll
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+/* Description text */
+.issue-modal-description {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #eaeaea;
+}
+
+/* Button */
+.issue-modal-button {
+  margin-top: 1.5rem;
+  align-self: flex-start;
+
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 8px;
-  
-  &:hover {
-    cursor: pointer;
-    color: #2a2a2a;
-    background-color: rgba(255, 255, 255, 0.95);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  }
-  
-  &:active {
-    transform: translateY(0);
-  }
-  
-  @media (max-width: 767px) {
-    padding: 0.8rem 1.2rem;
-    max-width: 160px;
-    margin-top: $spacer-1;
-    margin-bottom: $spacer-1;
-  }
+  gap: 0.5rem;
+
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 999px;
+  padding: 0.75rem 1.25rem;
+
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+  cursor: pointer;
+
+  flex: 0 0 auto;
+
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
-.arrow-icon {
-  margin-left: 4px;
-  transform: rotate(90deg);
-  padding: 0;
-  margin-right: 0;
-  transition: transform 0.3s ease;
+.issue-modal-button:hover {
+  background: #ffffff;
+  color: #000000;
 }
 
-.issue-modal-button:hover .arrow-icon {
-  transform: rotate(90deg) translateX(2px);
+/* Responsive */
+@media (max-width: 900px) {
+  .issue-modal-content {
+    grid-template-columns: 1fr;
+    width: 94vw;
+    max-height: calc(100dvh - 24px - env(safe-area-inset-top));
+    padding: 1.25rem;
+  }
+
+  .issue-modal-image-container {
+    max-height: 40vh;
+  }
 }

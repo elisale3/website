@@ -1,18 +1,10 @@
-import React from 'react'
-import video from '../../static/homepage_video.mp4'
+import React from "react";
+import StaticLanding from "./StaticLanding";
+import HomepageVideoOriginal from "./homepageVideo.original";
+//change value to false to revert back to original vid and home page from now on
+//USE FOR FUTURE ISSUES AS WELL
+const SHOW_SPECIAL_LANDING = true;
 
-class HomepageVideo extends React.Component {
-
-  render() {
-
-    return (
-      <div className="Video" id>
-        <video width="100%" playsInline autoPlay muted loop>
-        <source src={video} type="video/mp4"/>
-        </video>
-      </div>
-    );
-  }   
+export default function HomepageVideo(props) {
+  return SHOW_SPECIAL_LANDING ? <StaticLanding /> : <HomepageVideoOriginal {...props} />;
 }
-
-export default HomepageVideo;
