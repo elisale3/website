@@ -31,12 +31,19 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Jersey_Rosetes.JPG"),
     name: "Jersey Rosetes",
-    position: "Photographer"
+    position: "Photographer",
+    pronouns: "they/them",
+    major: "Sociology: Social Inequalities Major, AAPI Studies Minor.",
+    about: "Hello I'm jersey and I like to take pictures (hence why I’m in photo this year). I like to explore topics of hardships, identities, and culture as I take part and immerse myself in them. Trend is a space that has given me a creative outlet and I'm looking forward to expanding my work and learning about myself and other people.",
+    portfolio: "\n\tPortfolio: https://jerseyrosetes.my.canva.site/ \n\tInstagram: @jerseyrosetes"
   },
   {
     picture: () => import("../../static/team/ Natalie_Kong2.JPG"),
     name: "Natalie Kong",
-    position: "Photographer"
+    position: "Photographer",
+    pronouns: "she/her",
+    major: "Neurobiology major, minor in chemistry",
+    about: "I love hiking and being in nature a lot. I also really enjoy learning about plant biology and how plants work! I am looking forward to seeing everyone’s amazing awesome creative minds at work for the next magazine!",
   },
   {
     picture: () => import("../../static/team/Silvia_Lee1.JPG"),
@@ -51,37 +58,62 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Arta_Abdolzadeh.JPG"),
     name: "Arta Abdolzadeh",
-    position: "Photographer"
+    position: "Photographer",
+    pronouns: "he/him",
+    major: "ICAM",
+    about: "Multi disciplinary artist wannabe"
   },
   {
     picture: () => import("../../static/team/Sharon_Heo.JPG"),
     name: "Sharon Heo",
-    position: "Photographer"
+    position: "Photographer",
+    pronouns: "she/her",
+    major: "Media Industries",
+    about: "I love eating food with friends, reading, listening to music, watching movies + the stars, and studying!! looking forward to being my untethered self in trend this year :- )",
+    portfolio: "\n\tPortfolio: sharonyheo.wixsite.com/portfolio/gallery"
   },
   {
     picture: () => import("../../static/team/Muhammad_Hilmans.JPG"),
     name: "Hilman Muhammad",
-    position: "Photographer"
+    position: "Photographer",
+    pronouns: "he/him/his",
+    major: "Environmental Systems/Earth Sciences",
+    about: "I love photography and house music. I am looking forward to make house music the best music in the world."
   },
   {
     picture: () => import("../../static/team/Althea_Allen.JPG"),
     name: "Althea Allen",
-    position: "Photographer"
+    position: "Photographer",
+    pronouns: "she/her",
+    major: "Major: Visual Arts — Media, Minors: Marketing, Law & Society",
+    about: "Hi! I’m Althea and I’m a filmmaker, photographer, and visual artist from San Francisco. This year I’m looking forward to working on projects involving fashion and cityscapes!",
+    portfolio: "\n\tPortfolio: https://altheaallen.framer.website/"
   },
   {
     picture: () => import("../../static/team/Tabitha_Finamore.JPG"),
     name: "Tabitha Finamore",
-    position: "Photographer"
+    position: "Photographer",
+    pronouns: "she/her",
+    major: "Double Major: Visarts Media Design, Comms. Double Minor: Marketing, Theater",
+    about: "I’m obsessed with all things art and storytelling — video, photography, writing, dance, acting, costuming, makeup, jewelry making, and anything visual. I love collaborating with other creatives and pushing ideas further together. When I’m not making something, I’m cooking, camping, going to concerts, or hanging out with my cat or at the beach.",
+    portfolio: "\n\tInstagram: @Tabitha_Ladybird"
   },
   {
     picture: () => import("../../static/team/Sean_Desmond_Jones.JPG"),
     name: "Sean Jones",
-    position: "Photographer"
+    position: "Photographer",
+    pronouns: "he/him",
+    major: "ICAM",
+    about: "Hi I’m sean and my interests really lie within anything in the creative category/ industry! I love photography, cinematography, art, music, fashion, etc. My hobbies include photography, painting, sketching, thrifting, and making 3D models! I am looking forward to meeting new people and being part of a creative community within Trend this year!",
+    portfolio: "\n\tInstagram: @seanbelluci"
   },
   {
     picture: () => import("../../static/team/Roxanne_Mayali.jpg"),
     name: "Roxanne Mayali",
-    position: "Photographer"
+    position: "Photographer",
+    pronouns: "she/her",
+    major: "ICAM Visual Arts + Computer Science minor",
+    about: "Lately I’ve been into film development, sleeping in, and deep dives on internet subcultures. Super excited to work with all the creative people on our team this year!"
   },
   {
     picture: () => import("../../static/team/Sophia_Regier.jpeg"),
