@@ -31,7 +31,7 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Jersey_Rosetes.JPG"),
     name: "Jersey Rosetes",
-    position: "Photographer"
+    position: "Photographer",
   },
   {
     picture: () => import("../../static/team/ Natalie_Kong2.JPG"),
@@ -66,22 +66,17 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Althea_Allen.JPG"),
     name: "Althea Allen",
-    position: "Photographer"
+    position: "Photographer",
   },
   {
     picture: () => import("../../static/team/Tabitha_Finamore.JPG"),
     name: "Tabitha Finamore",
-    position: "Photographer"
+    position: "Photographer",
   },
   {
     picture: () => import("../../static/team/Sean_Desmond_Jones.JPG"),
     name: "Sean Jones",
     position: "Photographer",
-    pronouns: "he/him",
-    major: "ICAM",
-    about: "Hi I’m Sean and I’m really interested in anything creative like; art, photography, fashion, and music. I enjoy painting and taking photos as hobbies! I’m really looking forward to working with new people for photoshoots this year and see how everyone deciphers the prompt!",
-    portfolio: "https://www.instagram.com/seanbelluci?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr"
-
   },
   {
     picture: () => import("../../static/team/Roxanne_Mayali.jpg"),
@@ -174,7 +169,11 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Viviana_Espino.JPG"),
     name: "Viviana Espino",
-    position: "External"
+    position: "External",
+    pronouns: "she/her",
+    major: "Economics & Business Psychology",
+    about: "Heyyy! I'm Viviana, co-director of external<3 I love FASHION, eating, dancing, and TREND!!!",
+    portfolio: "https://rosettarietastone.my.canva.site/portfolio"
   },
   {
     picture: () => import("../../static/team/Dani_Rodriguez_Arzate.jpeg"),
@@ -184,12 +183,18 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Anne_Vuong.jpg"),
     name: "Anne Vuong",
-    position: "External"
+    position: "External",
+    pronouns: "she/her",
+    major: "Molecular and Cell Biology",
+    about: "Hellooo fashionistas I'm Anne and I'm superrrr excited to be joining TREND this year! I'm looking forward to creating fun and awesome events for everyone to enjoy and share their love for fashion."
   },
   {
     picture: () => import("../../static/team/Catherine_Hoang.JPG"),
     name: "Catherine Hoang",
-    position: "External"
+    position: "External",
+    pronouns: "she/her",
+    major: "International Business and Cognitive Science sp. Design and Interaction",
+    about: "I like to explore new places and eat interesting food."
   },
   {
     picture: () => import("../../static/team/Jenny_Cannata.jpeg"),
@@ -199,57 +204,91 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Josephine_Jukita.jpg"),
     name: "Josephine Jukita",
-    position: "External"
+    position: "External",
+    pronouns: "she/her",
+    major: "Cognitive Science Spec. Design & Interaction",
+    about: "I love getting sweet treats with my friends, stealing clothes from my grandma, and laughing till my ribs get tough! I can't wait to get to know the TREND team more & see the amazing events & spreads that are made."
   },
   {
     picture: () => import("../../static/team/Kshitij_Uddagatti.JPG"),
     name: "Kshitij Uddagatti",
-    position: "External"
+    position: "External",
+    pronouns: "he/him",
+    major: "Political Science",
+    about: "As a pre-law poli sci major, I love movies, crocheting, and obviously fashion. Regardless, I am looking forward to meeting more people through TREND and the External team."
   },
   {
     picture: () => import("../../static/team/Leah_Jenkins.JPG"),
     name: "Leah Jenkins",
-    position: "External"
+    position: "External",
+    pronouns: "she/her",
+    major: "ICAM",
+    about: "Hi! I’m Leah I’ve been passionate about art from an early age expressing myself through fashion and constantly creating in various mediums. I love rock climbing, cooking, and anything pickled."
   },
   {
     picture: () => import("../../static/team/Leanna_Gower.jpg"),
     name: "Leanna Gower",
-    position: "External"
+    position: "External",
   },
   {
     picture: () => import("../../static/team/Lila_Ciambriello.jpg"),
     name: "Lila Ciambriello",
-    position: "External"
+    position: "External",
+    pronouns: "she/her",
+    major: "Clinical Psychology",
+    minor: "Studio Arts",
+    about: "I love love love to dance and do anything creative! My main medium of choice when it comes to art is ceramics! I’m looking forwards to meeting so many bright, like-minded, and insanely talented creative people from TREND and making new friends!"
   },
   {
     picture: () => import("../../static/team/Lillian_Ta.jpg"),
     name: "Lillian Ta",
-    position: "External"
+    position: "External",
+    pronouns: "she/her",
+    major: "Business Psychology",
+    minor: "Marketing",
+    about: "I love to crochet, especially tops! I also love to thrift, find unique jewelry pieces, and listen to any music (especially old rnb/soul)!",
+    portfolio: "https://www.canva.com/design/DAG5artz4S8/ZCVfjtoylZXzQCGbBeU-Og/edit?utm_content=DAG5artz4S8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
   },
   {
     picture: () => import("../../static/team/Maggie_Jordan.jpg"),
     name: "Maggie Jordan",
-    position: "External"
+    position: "External",
+    pronouns: "she/her",
+    major: "International Studies with concentration in Economics",
+    about: "Hi! My name is Maggie and I am super excited to be a part of TREND this year! Outside of TREND I spend most of my time dancing. I am a part of two dance clubs here on campus, MUSE and Aequora, come to our shows in the spring!"
   },
   {
     picture: () => import("../../static/team/Niyati_Patel.jpg"),
     name: "Niyati Patel",
-    position: "External"
+    position: "External",
+    pronouns: "she/her",
+    major: "Business Psychology",
+    about: "I love to play guitar, crochet, and watch films! My favorite film in 2025 was the new Superman! I have some ideas for a shoot and I hope I’m able to work on one this year!"
   },
   {
     picture: () => import("../../static/team/Priscila_Ran.jpg"),
     name: "Priscila Ran",
-    position: "External"
+    position: "External",
+    pronouns: "she/her",
+    major: "Media Studies and Communications",
+    minor: "Business",
+    about: "Hi my name is Priscila! My hobbies is dancing and something I'm looking forward to in trend this year is the annual spring fashion showcase!".
   },
   {
     picture: () => import("../../static/team/Sophie_Dornic.jpg"),
     name: "Sophie Dornic",
-    position: "External"
+    position: "External",
+    pronouns: "she/her",
+    major: "International Business",
+    about: "I love thrifting and watching movies! I also really enjoy photographing friends and family. I love figs and going to museums."
   },
   {
     picture: () => import("../../static/team/Zella_Lucas.jpg"),
     name: "Zella Lucas",
-    position: "External"
+    position: "External",
+    pronouns: "she/her",
+    major: "Cognitive Behavioral Neuroscience / Innovattion & Entrepreneurship",
+    about: "Creativity is best when presented as a collage of different mediums and of many minds. Your vision is clearest when able to view every perspective of art, and the reason I find it so beautiful."
   },
   {
     picture: () => import("../../static/team/Ishani_Solanki.jpeg"),
