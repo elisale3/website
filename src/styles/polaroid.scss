@@ -98,6 +98,10 @@
   opacity: 0.9;
 }
 
+.hover-major strong{
+  font-weight: 700;
+}
+
 .hover-minor {
   //font-size: 1.3rem;
   font-size: clamp(0.9rem, 2vw, 1.3rem);
