@@ -13,7 +13,8 @@ export const teamInfo = [
     name: "Maggie Blaisdell",
     position: "Editor in Chief",
     pronouns: "she/her",
-    major: "Urban studies and planning, speculative design minor",
+    major: "Urban Studies and Planning",
+    minor: "Speculative Design",
     about: "Hi there! As a Co-Editor-in-Chief of TREND, I’m able to work on all types of creative projects (magazine design, event planning, social media, and more) and my goal is to craft the best team experience for our staff members. Professionally, I’m working as a social media coordinator at UCSD’s Admissions office, and academically, I’m an Urban Planning major specializing in urban design and architecture. Currently looking forward to: studying sustainable design in Amsterdam this summer! For fun, I like to cook new recipes, thrift and curate outfits, and cafe hop with friends.",
     portfolio: "\n\tLinkedIn: linkedin.com/in/maggieblaisdell/ \n\tInstagram: @m.blase.dell \n\tEmail: margaretblaisdell.cc@gmail.com"
   },
