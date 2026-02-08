@@ -3,7 +3,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "../../styles/polaroid.scss";
 
-const Polaroid = ({ picture, name, position, pronouns, major, about, portfolio }) => {
+const Polaroid = ({ picture, name, position, pronouns, major, minor, about, portfolio }) => {
   const [imageSrc, setImageSrc] = useState(null);
 
   useEffect(() => {
@@ -37,7 +37,7 @@ const Polaroid = ({ picture, name, position, pronouns, major, about, portfolio }
 
           {/*  Hover Overlay
           Angelo Note: Hi I changed this a little bit just to improve loading pls dont hate me */}
-          {(pronouns || major || about || portfolio) && (
+          {(pronouns || major || minor || about || portfolio) && (
             <div className="polaroid-hover-overlay">
               
               {/*<h5>{name}</h5>*/}
@@ -48,6 +48,10 @@ const Polaroid = ({ picture, name, position, pronouns, major, about, portfolio }
 
               {major && (
                 <p className="hover-major">Major: {major}</p>
+              )}
+
+              {minor && (
+                <p className="hover-minor">Minor: {minor}</p>
               )}
 
               {about && (
