@@ -76,7 +76,12 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Sean_Desmond_Jones.JPG"),
     name: "Sean Jones",
-    position: "Photographer"
+    position: "Photographer",
+    pronouns: "he/him",
+    major: "ICAM",
+    about: "Hi I’m Sean and I’m really interested in anything creative like; art, photography, fashion, and music. I enjoy painting and taking photos as hobbies! I’m really looking forward to working with new people for photoshoots this year and see how everyone deciphers the prompt!",
+    portfolio: "https://www.instagram.com/seanbelluci?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr"
+
   },
   {
     picture: () => import("../../static/team/Roxanne_Mayali.jpg"),
