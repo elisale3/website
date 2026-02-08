@@ -272,7 +272,7 @@ export const teamInfo = [
     pronouns: "she/her",
     major: "Media Studies and Communications",
     minor: "Business",
-    about: "Hi my name is Priscila! My hobbies is dancing and something I'm looking forward to in trend this year is the annual spring fashion showcase!".
+    about: "Hi my name is Priscila! My hobbies is dancing and something I'm looking forward to in trend this year is the annual spring fashion showcase!"
   },
   {
     picture: () => import("../../static/team/Sophie_Dornic.jpg"),
