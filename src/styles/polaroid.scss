@@ -33,10 +33,11 @@
 }
 
 .image-frame {
-  padding-top: 1rem;
+  /*padding-top: 1rem;
   padding-right: 1rem;
   padding-left: 1rem;
   padding-bottom: 1rem;
+  */
   position: relative;
   width: 100%;
   aspect-ratio: 3 / 4; 
@@ -57,7 +58,7 @@
 .polaroid-hover-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.82);
+  background: rgba(0, 0, 0, 0.55);
   color: white;
 
   display: flex;
@@ -89,6 +90,13 @@
 }
 
 .hover-major {
+  //font-size: 1.3rem;
+  font-size: clamp(0.9rem, 2vw, 1.3rem);
+  margin: 2px 0;
+  opacity: 0.9;
+}
+
+.hover-minor {
   //font-size: 1.3rem;
   font-size: clamp(0.9rem, 2vw, 1.3rem);
   margin: 2px 0;
