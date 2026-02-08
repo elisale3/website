@@ -47,7 +47,7 @@ const Polaroid = ({ picture, name, position, pronouns, major, minor, about, port
               )}
 
               {major && (
-                <p className="hover-major">Major: {major}</p>
+                <p className="hover-major"><strong>Major:</strong> {major}</p>
               )}
 
               {minor && (
