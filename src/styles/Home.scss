@@ -64,3 +64,43 @@
     .icon-4 { top: 50%; right: 30%; }
   }
 }
+
+
+//coalescence animation
+/* ===== Landing Title Flow-In Animation ===== */
+/*
+.static-landing__title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1; // keeps lines tight
+}
+
+.coalesce {
+  display: block;
+  opacity: 0;
+  transform: translateY(40px);
+  filter: blur(6px);
+  animation: flowIn 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.coalesce.top {
+  animation-delay: 0.2s;
+}
+
+.coalesce.middle {
+  animation-delay: 0.6s;
+}
+
+.coalesce.bottom {
+  animation-delay: 1s;
+}
+
+@keyframes flowIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+*/
+
