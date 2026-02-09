@@ -112,7 +112,9 @@ export default function StaticLanding() {
           </div>
 
           <div className="timer-section__footer">
-            time until February 13, 2026, at 7:00 PM
+            time until TREND’s F/W launch party. <br></br>
+
+            February 13th, 2026, at 7:00 pm at the Multipurpose Room
           </div>
           <button
             className="timer-section__cta"
@@ -132,7 +134,7 @@ export default function StaticLanding() {
       <section className="statement-section" id="artist-statement">
         <div className="statement-section__overlay">
           <h2 className="statement-section__header">
-            A Statement from Dan Nepomuceno
+            <span className="statement-name">A Statement from Dan Nepomuceno</span>
             <span className="statement-role">(Co-Editor in Chief)</span>
           </h2>
 
