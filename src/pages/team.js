@@ -1,4 +1,5 @@
 import React, { Suspense } from "react";
+import { Helmet } from "react-helmet";
 import FilmStrip from "../components/teamComponents/filmStrip";
 import "../styles/Team.scss";
 
@@ -13,22 +14,27 @@ class Team extends React.Component {
 
   render() {
     return (
-      <div className="team-page">
-        <FilmStrip />
+      <>
+        <Helmet>
+          <title>Team | TREND at UCSD</title>
+          <link rel="canonical" href="https://www.trendatucsd.com/team" />
+        </Helmet>
 
-        {/* ✅ everything below aligns together */}
-        <div className="team-content">
-          {/* ✅ stacked header */}
-          <div className="team-header">
-            <h2 className="team-title">TREND Team</h2>
-            <p className="team-year">2025 - 2026</p>
+        <div className="team-page">
+          <FilmStrip />
+
+          <div className="team-content">
+            <div className="team-header">
+              <h2 className="team-title">TREND Team</h2>
+              <p className="team-year">2025 - 2026</p>
+            </div>
+
+            <Suspense fallback={<div>Loading...</div>}>
+              <LazyLoadedTeamGrid />
+            </Suspense>
           </div>
-
-          <Suspense fallback={<div>Loading...</div>}>
-            <LazyLoadedTeamGrid />
-          </Suspense>
         </div>
-      </div>
+      </>
     );
   }
 }
