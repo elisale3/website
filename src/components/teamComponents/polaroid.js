@@ -43,7 +43,9 @@ const Polaroid = ({ picture, name, position, pronouns, major, minor, about, port
               {/*<h5>{name}</h5>*/}
               
               {pronouns && (
-                <p className="hover-pronouns">Pronouns: {pronouns}</p>
+                <p className="hover-pronouns">
+                  <span className="label">Pronouns:</span> {pronouns}
+                </p>
               )}
 
               {major && (
@@ -54,7 +56,9 @@ const Polaroid = ({ picture, name, position, pronouns, major, minor, about, port
               )}
 
               {minor && (
-                <p className="hover-minor">Minor: {minor}</p>
+                <p className="hover-minor">
+                  <span className="label">Minor:</span> {minor}
+                </p>
               )}
 
               {about && (

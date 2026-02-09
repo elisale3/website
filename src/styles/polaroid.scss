@@ -92,11 +92,22 @@
   font-size: clamp(0.75rem, 1.6vw, 1rem);
 }
 
+.hover-pronouns .label{
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  margin-right: 6px;
+}
+
 .hover-major {
   //font-size: 1.3rem;
   font-size: clamp(0.9rem, 2vw, 1.3rem);
   margin: 2px 0;
   opacity: 0.9;
+  line-height: 1.1;
+  //so that wrap around is indented 
+  display: grid;
+  grid-template-columns: auto 1fr;  // label + content
+  column-gap: 6px;
 }
 
 .hover-major .label{
@@ -110,13 +121,23 @@
   font-size: clamp(0.9rem, 2vw, 1.3rem);
   margin: 2px 0;
   opacity: 0.9;
+  //so wrap around is indented 
+  display: grid;
+  grid-template-columns: auto 1fr;  // label + content
+  column-gap: 6px;
+}
+
+.hover-minor .label{
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  margin-right: 6px;
 }
 
 .hover-about {
   //font-size: 1.3rem;
   font-size: clamp(0.85rem, 1.9vw, 1.2rem);
   line-height: 1.35;
-  margin: 6px 0;;
+  margin: 20px 0;;
 }
 
 .hover-portfolio {
