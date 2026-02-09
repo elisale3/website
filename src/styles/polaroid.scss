@@ -99,8 +99,10 @@
   opacity: 0.9;
 }
 
-.hover-major strong{
-  font-weight: 1000;
+.hover-major .label{
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  margin-right: 6px;
 }
 
 .hover-minor {
