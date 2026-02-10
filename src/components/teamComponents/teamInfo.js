@@ -443,6 +443,9 @@ export const teamInfo = [
     picture: () => import("../../static/team/Taira_Sakamoto.jpg"),
     name: "Taira Sakamoto",
     position: "Web Developer",
+    pronouns: "she/her",
+    major: "Math-Computer Science",
+    about: "Hii! I'm Taira - Co-director of the web-dev team!! So excited to help implement our website to showcase everyone's on TREND's hardwork and talent!"
   },
   {
     picture: () => import("../../static/team/Angelo_Belardo.jpg"),
