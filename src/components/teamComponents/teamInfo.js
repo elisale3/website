@@ -475,7 +475,10 @@ m{
   {
     picture: () => import("../../static/team/Taira_Sakamoto.jpg"),
     name: "Taira Sakamoto",
-    position: "Web Developer"
+    position: "Web Developer",
+    pronouns: "she/her",
+    major: "Math-Computer Science",
+    about: "Hii I'm Taira! I'm co-director of the web-dev team!! So excited to help implement our website to showcase everyone on TREND's hardwork and talent!"
   },
   {
     picture: () => import("../../static/team/Angelo_Belardo.jpg"),

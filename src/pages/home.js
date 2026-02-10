@@ -1,5 +1,6 @@
 import { scan } from "react-scan";
 import React from "react";
+import { Helmet } from "react-helmet";
 import FeaturedIssue from "../components/homeComponents/featuredIssue";
 import WhoWeAre from "../components/homeComponents/whoWeAre";
 import HomepageVideo from "../components/homeComponents/homepageVideo.js";
@@ -19,25 +20,32 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div className="home-container">
-        {/* Background Elements */}
-        <div className="background-main"></div>
-        <div className="background-pattern"></div>
-        <div className="background-icons">
-          <div className="icon icon-1"></div>
-          <div className="icon icon-2"></div>
-          <div className="icon icon-3"></div>
-          <div className="icon icon-4"></div>
-        </div>
+      <>
+        <Helmet>
+          <title>TREND at UCSD</title>
+          <link rel="canonical" href="https://www.trendatucsd.com/" />
+        </Helmet>
 
-        {/* Page Sections */}
-        <HomepageVideo />
-        <FeaturedIssue />
-        <Blogs />
-        <WhoWeAre />
-        {/* <Upcoming /> */}
-        <YouTrend />
-      </div>
+        <div className="home-container">
+          {/* Background Elements */}
+          <div className="background-main"></div>
+          <div className="background-pattern"></div>
+          <div className="background-icons">
+            <div className="icon icon-1"></div>
+            <div className="icon icon-2"></div>
+            <div className="icon icon-3"></div>
+            <div className="icon icon-4"></div>
+          </div>
+
+          {/* Page Sections */}
+          <HomepageVideo />
+          <FeaturedIssue />
+          <Blogs />
+          <WhoWeAre />
+          {/* <Upcoming /> */}
+          <YouTrend />
+        </div>
+      </>
     );
   }
 }
