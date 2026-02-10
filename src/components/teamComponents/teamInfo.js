@@ -1,5 +1,7 @@
 export const teamInfo = [
-  {
+?=
+
+m{
     picture: () => import("../../static/team/Dan_Nepomuceno.JPEG"),
     name: "Dan Nepomuceno",
     position: "Editor in Chief",
@@ -446,7 +448,7 @@ export const teamInfo = [
     position: "Stylist"
     pronouns: "she/her",
     major: "Communications",
-    about: "Hi everyone my name is Perla ! I am a third-year transfer from Pasadena City College and some of my interests in include going to concerts/festivals and making jewlery. What im looking forward to meeting and creating new friends, stylish shoots and overall having an amazing time with the team!"
+    about: "Hi everyone my name is Perla ! I am a third-year transfer from Pasadena City College and some of my interests in include going to concerts/festivals and making jewlery. What im looking forward to meeting and creating new friends, stylish shoots and overall having an amazing time with the team!",
     portfolio: "https://www.canva.com/design/DAG0ma1-Y-Y/hTDFg9DHPu2jRX1vEu5MAg/edit?utm_content=DAG0ma1-Y-Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
   },
   {
@@ -491,9 +493,7 @@ export const teamInfo = [
     pronouns: "any/all",
     major: "Cognitive Science",
     about: "Lover of photography, design, and development. Usually forgets exactly 1 thing when leaving the house.",
-    portfolio: "My Insta: https://www.instagram.com/_nadine.aa/
-    My Linkedin: https://www.linkedin.com/in/undefinedvisuals/
-    My github: https://github.com/LumpiYuh"
+    portfolio: "\n\tMy Insta: https://www.instagram.com/_nadine.aa/ \n\tMy Linkedin: https://www.linkedin.com/in/undefinedvisuals/ \n\tMy github: https://github.com/LumpiYuh"
   },
   {
     picture: () => import("../../static/team/Brina_Wang.jpg"),
@@ -535,7 +535,6 @@ export const teamInfo = [
     major: "Cognitive Science with a specialization in Machine Learning and Neural Computation",
     minor: "Business Analytics",
     about: "Hi, I'm Elisa! I'm interested in human centered design and web development. I am looking forward to being on TREND and showcasing my creativity!",
-    portfolio: "linkedin: www.linkedin.com/in/elisaale 
-    https://elisale.framer.website/?editSite"
+    portfolio: "\n\tlinkedin: www.linkedin.com/in/elisaale \n\thttps://elisale.framer.website/?editSite"
   },
 ]
