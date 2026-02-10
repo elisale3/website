@@ -445,7 +445,7 @@ export const teamInfo = [
     position: "Web Developer",
     pronouns: "she/her",
     major: "Math-Computer Science",
-    about: "Hii! I'm Taira - Co-director of the web-dev team!! So excited to help implement our website to showcase everyone's on TREND's hardwork and talent!"
+    about: "Hii I'm Taira! I'm co-director of the web-dev team!! So excited to help implement our website to showcase everyone on TREND's hardwork and talent!"
   },
   {
     picture: () => import("../../static/team/Angelo_Belardo.jpg"),
